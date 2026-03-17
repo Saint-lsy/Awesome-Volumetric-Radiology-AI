@@ -18,8 +18,8 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography** | arXiv / Nat Biomed Eng | 2024 / 2026 | [Paper](https://arxiv.org/abs/2403.17834) | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
 | **A Pan-Organ Vision-Language Model for Generalizable 3D CT Representations** | medRxiv | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/40630577/) | Not Available |
-| **Large-Scale 3D Medical Image Pre-Training With Geometric Context Priors** | IEEE TPAMI | 2025 | Not Available | Not Available |
-| **NeuroVFM: A Contrastive Vision-Language Model for Medical Reasoning in Alzheimer's Disease Diagnosis** | WACV | 2026 | Not Available | Not Available |
+| **Large-Scale 3D Medical Image Pre-Training With Geometric Context Priors** | IEEE TPAMI | 2025 | [Paper](https://ieeexplore.ieee.org/abstract/document/11274411) | Not Available |
+| **NeuroVFM: A Contrastive Vision-Language Model for Medical Reasoning in Alzheimer's Disease Diagnosis** | WACV | 2026 | [Paper](https://openaccess.thecvf.com/content/WACV2026W/P2P/html/Sajib_NeuroVLM_A_Contrastive_Vision-Language_Model_for_Medical_Reasoning_in_Alzheimers_WACVW_2026_paper.html) | Not Available |
 | **OpenVocabCT: Towards Universal Text-driven CT Image Segmentation** | IEEE TMI | 2025 | [Paper](https://arxiv.org/abs/2503.06030) | Not Available |
 
 ---
@@ -43,14 +43,14 @@
 | **LLaVA-Med: Large Language and Vision Assistant for Bio-Medical** | arXiv | 2023 | [Paper](https://arxiv.org/abs/2306.00890) | [Project](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b) |
 | **HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2406.19280) | [Project](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B) |
 | **BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities** | Findings of EMNLP | 2025 | [Paper](https://aclanthology.org/2025.findings-emnlp.756.pdf) | [Project](https://github.com/mbzuai-oryx/BiMediX2) |
-| **MediX-R1: Medical Vision Language Model with Reinforcement Learning** | arXiv | 2026 | Not Available | [Project](https://huggingface.co/MBZUAI/MediX-R1-2B) |
+| **MediX-R1: Medical Vision Language Model with Reinforcement Learning** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.23363) | [Project](https://huggingface.co/MBZUAI/MediX-R1-2B) |
 | **BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks** | Nat Med | 2024 | [Paper](https://arxiv.org/abs/2305.17100) | [Project](https://huggingface.co/PharMolix/BioMedGPT-LM-7B) |
 | **Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2503.13939) | [Project](https://github.com/Yuxiang-Lai117/Med-R1) |
 | **MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2502.19634) | [Project](https://huggingface.co/JZPeterPan/MedVLM-R1) |
-| **Chiron-o1: Medical Reasoning Model** | arXiv | 2025 | Not Available | [Project](https://huggingface.co/manglu3935/Chiron-o1-2B) |
-| **QoQ-Med: Quantized On-the-Fly Medical VLM** | arXiv | 2025 | Not Available | [Project](https://huggingface.co/ddvd233/QoQ-Med-VL-7B) |
-| **MedMO: Medical Vision Language Model with Mixture of Experts** | arXiv | 2026 | Not Available | [Project](https://huggingface.co/MBZUAI/MedMO-4B) |
-| **Fleming-VL: Towards Universal Medical Visual Reasoning with Multimodal LLMs** | arXiv | 2025 | Not Available | [Project](https://huggingface.co/UbiquantAI/Fleming-VL-8B) |
+| **Enhancing Step-by-Step and Verifiable Medical Reasoning in MLLMs** | arXiv | 2025 | [Paper](https://ui.adsabs.harvard.edu/abs/2025arXiv250616962S/abstract) | [Project](https://huggingface.co/manglu3935/Chiron-o1-2B) |
+| **QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.00711) | [Project](https://huggingface.co/ddvd233/QoQ-Med-VL-7B) |
+| **MedMO: Medical Vision Language Model with Mixture of Experts** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.06965) | [Project](https://huggingface.co/MBZUAI/MedMO-4B) |
+| **Fleming-VL: Towards Universal Medical Visual Reasoning with Multimodal LLMs** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2511.00916) | [Project](https://huggingface.co/UbiquantAI/Fleming-VL-8B) |
 | **Med-Flamingo: a Multimodal Medical Few-shot Learner** | ML4H / arXiv | 2023 | [Paper](https://arxiv.org/abs/2307.15189) | [Project](https://huggingface.co/med-flamingo/med-flamingo) |
 | **MiniGPT-Med: Large Language Model as a General Interface for Radiology Diagnosis** | OpenReview / arXiv | 2024 | [Paper](https://arxiv.org/abs/2407.04106) | [Project](https://github.com/Vision-CAIR/MiniGPT-Med) |
 | **XRaySwinGen: Automatic medical reporting for X-ray exams with multimodal model** | Heliyon | 2024 | [Paper](https://www.sciencedirect.com/science/article/pii/S2405844024035473) | Not Available |
@@ -73,9 +73,9 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **MedGemma Technical Report** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2507.05201) | [Project](https://huggingface.co/google/medgemma-4b-it) |
 | **Hulu-Med: A Transparent Generalist Model towards Holistic Medical Vision-Language Understanding** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.08668) | [Project](https://github.com/ZJUI-AI4H/Hulu-Med) |
-| **OctoMed: 8D Medical Imaging Vision Language Model** | arXiv | 2025 | Not Available | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
+| **OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2511.23269) | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
 | **RadFM: Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data** | arXiv / Nat Commun | 2023 / 2025 | [Paper](https://arxiv.org/abs/2308.02463) | [Project](https://github.com/chaoyi-wu/RadFM) |
-| **VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge** | arXiv | 2024 | Not Available | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
+| **VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge** | CVPR | 2025 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Nath_VILA-M3_Enhancing_Vision-Language_Models_with_Medical_Expert_Knowledge_CVPR_2025_paper.html) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
 | **Advancing Multimodal Medical Capabilities of Gemini** | arXiv / Nat Med | 2024 / 2025 | [Paper](https://arxiv.org/abs/2405.03162) | [Project](https://research.google/blog/advancing-medical-ai-with-med-gemini/) |
 
 ### **Agentic Systems**
@@ -91,7 +91,7 @@
 | **MiniGPT-Pancreas: Multimodal Large Language Model for Pancreas Cancer Observation and Localization in CT Images** | J Healthc Inform Res | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41658402/) | Not Available |
 | **A vision-language model-based approach for lung cancer diagnosis using lossless 3D CT images: evaluation of GPT-4.1 and GPT-4o for patient-level malignancy assessment** | Med Biol Eng Comput | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41439200/) | Not Available |
 | **Prospective evaluation of artificial intelligence (AI) in lumbar spine magnetic resonance imaging (MRI) workflow: from deep learning (DL)-enhanced accelerated acquisition to simultaneous vision-language model (VLM)-based automated report generation** | Eur J Radiol | 2026 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41579672/) | Not Available |
-| **BioVLM-T: A temporal framework for radiology report generation using pre-trained vision language foundational models** | SPIE Medical Imaging | 2025 | Not Available | Not Available |
+| **BioVLM-T: A temporal framework for radiology report generation using pre-trained vision language foundational models** | SPIE Medical Imaging | 2025 | [Paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13410/134100W/BioVLM-T--A-temporal-framework-for-radiology-report-generation/10.1117/12.3047498.short) | Not Available |
 
 ### **Other Related LLM / MLLM Papers**
 | Title | Venue | Date | Paper Link | Project Page |
