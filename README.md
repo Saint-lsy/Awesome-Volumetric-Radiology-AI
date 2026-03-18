@@ -1,4 +1,4 @@
-# Awesome-LLM-3D-Radiology-Analysis
+# Awesome-3D-Radiology-Analysis-FM
 
 ---
 
