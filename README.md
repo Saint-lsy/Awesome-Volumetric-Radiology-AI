@@ -5,17 +5,45 @@
 ## **Contrastive Learning (CLIP-based Methods)**
 
 ### **2D Pretraining**
-| Method | Title | Venue | Date | Paper Link | Project Page |
-| :--- |:--- | :--- | :--- | :--- | :--- |
+| Method | Title | Venue | Date | Paper | Project |
+| --- | --- | --- | --- | --- | --- |
+| MedCLIP | MedCLIP: Contrastive Learning from Unpaired Medical Images and Text | EMNLP 2022 | 2022.12 | [Paper](https://arxiv.org/abs/2210.10163) | [Project](https://github.com/RyanWangZf/MedCLIP) |
+| PubMedCLIP | PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain? | EACL 2023 (Findings) | 2023.05 | [Paper](https://arxiv.org/abs/2301.10030) | [Project](https://github.com/sarahESL/PubMedCLIP) |
+| CLIP-Lung | CLIP-Lung: Textual Knowledge-Guided Lung Nodule Malignancy Prediction | MICCAI 2023 | 2023.10 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_38) | [Project](https://github.com/ymLeiFDU/CLIP-Lung) |
+| BioMedCLIP | BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs | NEJM AI 2024 | 2024.01 | [Paper](https://ai.nejm.org/doi/full/10.1056/AIoa2400640) | [Project](https://github.com/microsoft/BiomedCLIP_data_pipeline) |
+| PMC-CLIP | PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents | MICCAI 2023 | 2023.10 | [Paper](https://arxiv.org/abs/2303.07240) | [Project](https://weixionglin.github.io/PMC-CLIP/) |
+| UniMedCLIP | UniMed-CLIP: Towards a Unified Image-Text Pretraining Paradigm for Diverse Medical Imaging Modalities | Arxiv | 2024.12 | [Paper](https://arxiv.org/abs/2412.10372) | [Project](https://github.com/mbzuai-oryx/UniMed-CLIP) |
+| ConceptCLIP | ConceptCLIP: Towards Trustworthy Medical AI via Concept-Enhanced Contrastive Language-Image Pre-training | arXiv | 2025.01 | [Paper](https://arxiv.org/abs/2501.15579) | [Project](https://github.com/JerrryNie/ConceptCLIP) |
+| MMKD-CLIP | Unifying Biomedical Vision-Language Expertise: Towards a Generalist Foundation Model via Multi-CLIP Knowledge Distillation | Arxiv | 2025.06 | [Paper](https://arxiv.org/pdf/2506.22567) | - |
+| RadiSimCLIP | RadiSimCLIP: A Radiology Vision-Language Model Pretrained on Simulated Radiologist Learning Dataset for Zero-Shot Medical Image Understanding | MICCAI 2025 Workshop | 2025.10 | [Paper](https://link.springer.com/chapter/10.1007/978-3-032-07845-2_8) | [Project](https://github.com/so-ux/RadiSimCLIP) |
 
 ### **3D Pretraining**
-| Method | Title | Venue | Date | Paper Link | Project Page |
-| :--- |:--- | :--- | :--- | :--- | :--- |
-|CT-CLIP| **Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography** | arXiv / Nat Biomed Eng | 2024 / 2026 | [Paper](https://arxiv.org/abs/2403.17834) | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
-|Percival| **A Pan-Organ Vision-Language Model for Generalizable 3D CT Representations** | medRxiv | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/40630577/) | Not Available |
-|VoCo| **Large-Scale 3D Medical Image Pre-Training With Geometric Context Priors** | IEEE TPAMI | 2025 | [Paper](https://ieeexplore.ieee.org/abstract/document/11274411) | Not Available |
-|NeuroVFM| **NeuroVFM: A Contrastive Vision-Language Model for Medical Reasoning in Alzheimer's Disease Diagnosis** | WACV | 2026 | [Paper](https://openaccess.thecvf.com/content/WACV2026W/P2P/html/Sajib_NeuroVLM_A_Contrastive_Vision-Language_Model_for_Medical_Reasoning_in_Alzheimers_WACVW_2026_paper.html) | Not Available |
-|OpenVocabCT| **OpenVocabCT: Towards Universal Text-driven CT Image Segmentation** | IEEE TMI | 2025 | [Paper](https://arxiv.org/abs/2503.06030) | Not Available |
+| Method | Title | Venue | Date | Paper | Project |
+| --- | --- | --- | --- | --- | --- |
+| CT2Rep | CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging | MICCAI 2024 | 2024.03 | [Paper](https://arxiv.org/pdf/2403.06801) | [Project](https://github.com/ibrahimethemhamamci/CT2Rep) |
+| UniBrain | UniBrain: Universal Brain MRI Diagnosis with Hierarchical Knowledge-enhanced Pre-training | Computerized Medical Imaging and Graphics | 2023.09 | [Paper](https://arxiv.org/abs/2309.06828) | [Project](https://github.com/ljy19970415/UniBrain) |
+| CT-CLIP | Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography | Nat Biomed Eng | 2024.03 | [Paper](https://arxiv.org/abs/2403.17834) | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
+| CT-GLIP | CT-GLIP: 3D Grounded Language-Image Pretraining with CT Scans and Radiology Reports for Full-Body Scenarios | arXiv | 2024.04 | [Paper](https://arxiv.org/abs/2404.15272) | - |
+| VoCo | Large-Scale 3D Medical Image Pre-Training With Geometric Context Priors | CVPR 2024 / IEEE TPAMI | 2024.06 | [Paper](https://ieeexplore.ieee.org/abstract/document/11274411) | [Project](https://github.com/Luffy03/VoCo) |
+| RadCLIP | RadCLIP: Enhancing Radiologic Image Analysis Through Contrastive Language–Image Pretraining | TNNLS | 2024.03 | [Paper](https://arxiv.org/pdf/2403.09948) | - |
+| Percival | A Pan-Organ Vision-Language Model for Generalizable 3D CT Representations | medRxiv | 2025.07 | [Paper](https://pubmed.ncbi.nlm.nih.gov/40630577/) | - |
+|  | Unified 3D MRI Representations via Sequence-Invariant Contrastive Learning | arxiv | 2025.01 | [Paper](https://arxiv.org/abs/2501.12057v2) | [Project](https://github.com/liamchalcroft/contrast-squared) |
+| OpenVocabCT | Towards Universal Text-driven CT Image Segmentation | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.06030) | - |
+| fVLM | Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding | ICLR 2025 | 2025.03 | [Paper](https://arxiv.org/abs/2501.14548) | [Project](https://github.com/alibaba-damo-academy/fvlm) |
+| HLIP | Towards Scalable Language-Image Pre-training for 3D Medical Imaging | Transactions on Machine Learning Research | 2025.05 | [Paper](https://arxiv.org/abs/2505.21862) | [Project](https://github.com/zch0414/hlip) |
+| BrainMVP | BrainMVP: Multi-modal Vision Pre-training for Brain MRI Analysis | CVPR 2025 (Highlight) | 2025.06 | [Paper](https://arxiv.org/html/2410.10604v1) | [Project](https://github.com/shaohao011/BrainMVP) |
+| ViSD-Boost | Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training | ICCV 2025 | 2025.08 | [Paper](https://arxiv.org/abs/2508.03742) | [Project](https://github.com/alibaba-damo-academy/ViSD-Boost) |
+| VELVET-Med | VELVET-Med: Vision and Efficient Language Pre-training for Volumetric Imaging Tasks in Medicine | arxiv | 2025.08 | [Paper](https://arxiv.org/abs/2508.12108) | - |
+| MedVista3D | MedVista3D: Vision-Language Modeling for Reducing Diagnostic Errors in 3D CT Disease Detection, Understanding and Reporting | arXiv | 2025.09 | [Paper](https://arxiv.org/abs/2509.03800) | - |
+| COLIPRI | Comprehensive Language-Image Pre-training for 3D Medical Image Understanding | arXiv | 2025.10 | [Paper](https://arxiv.org/abs/2510.15042) | [Project](https://huggingface.co/microsoft/colipri) |
+| MPS-CT | More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era | MICCAI 2025 | 2025.10 | [Paper](https://arxiv.org/pdf/2509.13175) | [Project](https://github.com/SadVoxel/More-performant-and-scalable) |
+| PET-CLIP Captioner | Location-Guided Automated Lesion Captioning in Whole-body PET/CT Images | MICCAI 2025 | 2025.10 | [Paper](https://papers.miccai.org/miccai-2025/paper/0248_paper.pdf) | - |
+| MR-CLIP | Metadata-Aligned 3D MRI Representations for Contrast Understanding and Quality Control | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.00681) | - |
+| SPECTRE | Scaling Self-Supervised and Cross-Modal Pretraining for Volumetric CT Transformers | CVPR 2026 | 2025.11 | [Paper](https://arxiv.org/abs/2511.17209) | [Project](https://github.com/cclaess/SPECTRE) |
+| BrgSA | Bridged Semantic Alignment for Zero-shot 3D Medical Image Diagnosis | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2501.03565) | [Project](https://github.com/laihaoran/BrgSA) |
+| NeuroVFM | NeuroVFM: A Contrastive Vision-Language Model for Medical Reasoning in Alzheimer's Disease Diagnosis | WACV 2026 Workshops | 2026.01 | [Paper](https://openaccess.thecvf.com/content/WACV2026W/P2P/html/Sajib_NeuroVLM_A_Contrastive_Vision-Language_Model_for_Medical_Reasoning_in_Alzheimers_WACVW_2026_paper.html) | - |
+| MG-3D | MG-3D: Multi-Grained Knowledge-Enhanced 3D Medical Vision-Language Pre-training | Medical Image Analysis (MedIA) | 2026.01 | [Paper](https://arxiv.org/abs/2503.06030) | [Project](https://github.com/Xuefeng-Ni/MG-3D) |
+| RadFinder | Learning to Read Where to Look: Disease-Aware Vision–Language Pretraining for 3D CT | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.02026) | [Project](https://radfinder.github.io/) |
 
 ---
 
