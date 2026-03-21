@@ -90,21 +90,20 @@
 ### 3D ViT + LLM
 | Method    | Title                                                                 | Venue               | Date       | Paper Link                                                                 | Project Page                                   |
 | :-------- | :-------------------------------------------------------------------- | :------------------ | :--------- | :------------------------------------------------------------------------- | :--------------------------------------------- |
-| Merlin    | **Merlin: A Vision Language Foundation Model for 3D Computed Tomography** | arXiv / Nature      | 2024 / 2026 | [Paper](https://arxiv.org/abs/2406.06512)                                   | [Project](https://github.com/StanfordMIMI/Merlin) |
-| CT-CHAT   | **CT-CHAT: Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography** | arXiv / Nat Biomed Eng | 2024 / 2026 | [Paper](https://arxiv.org/abs/2403.17834)                                   | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
-| Med3DVLM  | **Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis** | IEEE JBHI           | 2025       | [Paper](https://arxiv.org/abs/2503.20047)                                   | [Project](https://github.com/mirthAI/Med3DVLM) |
-| Brain3D   | **Brain3D: Brain Report Automation via Inflated Vision Transformers in 3D** | arXiv               | 2026       | [Paper](https://arxiv.org/abs/2602.22098)                                   | [Project](https://huggingface.co/praiselab-picuslab/BrainGemma3D) |
-
-### Hybrid / Serialized Volume + LLM
-| Method    | Title                                                                 | Venue               | Date       | Paper Link                                                                 | Project Page                                   |
-| :-------- | :-------------------------------------------------------------------- | :------------------ | :--------- | :------------------------------------------------------------------------- | :--------------------------------------------- |
-| MedGemma  | **MedGemma Technical Report**                                         | arXiv               | 2025       | [Paper](https://arxiv.org/abs/2507.05201)                                   | [Project](https://huggingface.co/google/medgemma-4b-it) |
-| Hulu-Med  | **Hulu-Med: A Transparent Generalist Model towards Holistic Medical Vision-Language Understanding** | arXiv               | 2025       | [Paper](https://arxiv.org/abs/2510.08668)                                   | [Project](https://github.com/ZJUI-AI4H/Hulu-Med) |
-| OctoMed   | **OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning** | arXiv               | 2025       | [Paper](https://arxiv.org/abs/2511.23269)                                   | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
-| RadFM     | **RadFM: Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data** | arXiv / Nat Commun  | 2023 / 2025 | [Paper](https://arxiv.org/abs/2308.02463)                                   | [Project](https://github.com/chaoyi-wu/RadFM) |
-| VILA-M3   | **VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge** | CVPR                | 2025       | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Nath_VILA-M3_Enhancing_Vision-Language_Models_with_Medical_Expert_Knowledge_CVPR_2025_paper.html) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
-|           | **Advancing Multimodal Medical Capabilities of Gemini**                | arXiv / Nat Med     | 2024 / 2025 | [Paper](https://arxiv.org/abs/2405.03162)                                   | [Project](https://research.google/blog/advancing-medical-ai-with-med-gemini/) |
-| Med-2E3   | **Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model （Hybrid）** |                     |            |                                                                             |                                                |
+|Merlin| Merlin: A Computed Tomography Vision-Language Foundation Model and Dataset | arXiv / Nature | 2024 / 2026 | [Paper](https://arxiv.org/abs/2406.06512) | [GitHub](https://github.com/StanfordMIMI/Merlin) |
+|CT-CHAT| Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography | arXiv / Nat Biomed Eng | 2024 / 2026 | [Paper](https://arxiv.org/abs/2403.17834) | [GitHub](https://github.com/ibrahimethemhamamci/CT-CLIP) |
+|CT2Rep| CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging | MICCAI 2024 | 2024 | [Paper](https://arxiv.org/abs/2403.06801) | [GitHub](https://github.com/ibrahimethemhamamci/CT2Rep) |
+|BrainGPT| Towards a Holistic Framework for Multimodal LLMs in 3D Brain CT Report Generation | arXiv / Nat Commun | 2024 / 2025 | [Paper](https://arxiv.org/abs/2407.02235) | [GitHub](https://github.com/charlierabea/FORTE) |
+|3D-CT-GPT| 3D-CT-GPT: Generating 3D Radiology Reports through Integration of Large Vision-Language Models | arXiv | 2024 | [Paper](https://arxiv.org/abs/2409.19330) | N/A |
+|M3D-LaMed| M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models | arXiv | 2024 | [Paper](https://arxiv.org/abs/2404.00578) | [GitHub](https://github.com/BAAI-DCAI/M3D) |
+|E3D-GPT| E3D-GPT: Enhanced 3D Visual Foundation for Medical Vision-Language Model | arXiv | 2024 | [Paper](https://arxiv.org/abs/2410.14200) | N/A |
+|MS-VLM| Read Like a Radiologist: Efficient Vision-Language Model for 3D Medical Imaging Interpretation | arXiv | 2024 | [Paper](https://arxiv.org/abs/2412.13558) | N/A |
+|HSENet| HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.09634) | N/A |
+|COLIPRI Comprehensive Language-Image Pre-training for 3D Medical Image Understanding | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.15042) | N/A |
+|Med3DVLM| Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis | IEEE JBHI | 2025 | [Paper](https://arxiv.org/abs/2503.20047) | [GitHub](https://github.com/mirthAI/Med3DVLM) |
+|BTB3D| Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Medical Imaging | NeurIPS 2025 | 2025 | [Paper](https://arxiv.org/abs/2510.20639) | [GitHub](https://github.com/ibrahimethemhamamci/BTB3D) |
+|Med3D-R1| Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.01200) | N/A |
+|Brain3D| Brain3D: Brain Report Automation via Inflated Vision Transformers in 3D | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.22098) | [GitHub](https://github.com/PRAISELab-PicusLab/BrainGemma3D) |
 
 
 ### **Hybrid / Serialized Volume + LLM**
