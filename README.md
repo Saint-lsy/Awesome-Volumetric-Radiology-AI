@@ -99,7 +99,7 @@
 |E3D-GPT| E3D-GPT: Enhanced 3D Visual Foundation for Medical Vision-Language Model | arXiv | 2024 | [Paper](https://arxiv.org/abs/2410.14200) | N/A |
 |MS-VLM| Read Like a Radiologist: Efficient Vision-Language Model for 3D Medical Imaging Interpretation | arXiv | 2024 | [Paper](https://arxiv.org/abs/2412.13558) | N/A |
 |HSENet| HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.09634) | N/A |
-|COLIPRI Comprehensive Language-Image Pre-training for 3D Medical Image Understanding | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.15042) | N/A |
+|COLIPRI| Comprehensive Language-Image Pre-training for 3D Medical Image Understanding | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.15042) | N/A |
 |Med3DVLM| Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis | IEEE JBHI | 2025 | [Paper](https://arxiv.org/abs/2503.20047) | [GitHub](https://github.com/mirthAI/Med3DVLM) |
 |BTB3D| Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Medical Imaging | NeurIPS 2025 | 2025 | [Paper](https://arxiv.org/abs/2510.20639) | [GitHub](https://github.com/ibrahimethemhamamci/BTB3D) |
 |Med3D-R1| Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.01200) | N/A |
