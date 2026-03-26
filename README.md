@@ -52,10 +52,8 @@
 | RadFinder | Learning to Read Where to Look: Disease-Aware Vision–Language Pretraining for 3D CT | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.02026) | [Project](https://radfinder.github.io/) |
 
 ---
-# MLLM-based Methods v2
+# MLLM-based Methods
 
-> This file keeps the concise schema used by the other sections: `Method | Title | Venue | Date | Paper | Project`.
-> Dates follow the first public version. The list is sorted by time within each category and only keeps entries with primary-source paper links.
 
 ## **2D-only**
 
