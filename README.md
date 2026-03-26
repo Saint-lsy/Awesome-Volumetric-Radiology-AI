@@ -52,99 +52,86 @@
 | RadFinder | Learning to Read Where to Look: Disease-Aware Vision–Language Pretraining for 3D CT | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.02026) | [Project](https://radfinder.github.io/) |
 
 ---
-## **Multimodal Large Language Models (MLLM-based Methods)**
+# MLLM-based Methods v2
 
-> **Note**
-> We categorize MLLM-based methods by the actual visual input form rather than only by the source modality name:
-> - **2D ViT + LLM**: native 2D medical image input.
-> - **3D ViT + LLM**: direct volumetric CT/MRI input.
-> - **Hybrid / Serialized Volume + LLM**: supports both 2D inputs and full 3D studies, including slice-serialization or flattened-volume designs.
-> - **Agentic Systems**: tool-augmented or reasoning-agent style systems.
-> - **Workflow / Application Systems**: MLLM-based applications/workflows that are not core foundation-model papers.
+> This file keeps the concise schema used by the other sections: `Method | Title | Venue | Date | Paper | Project`.
+> Dates follow the first public version. The list is sorted by time within each category and only keeps entries with primary-source paper links.
 
----
+## **2D-only**
 
-### **2D ViT + LLM**
-
-| Method | Title | Venue | Date | Paper Link | Project Page |
+| Method | Title | Venue | Date | Paper | Project |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Med-Flamingo | **Med-Flamingo: a Multimodal Medical Few-shot Learner** | ML4H | 2023 | [Paper](https://arxiv.org/abs/2307.15189) | [Project](https://huggingface.co/med-flamingo/med-flamingo) |
-| LLaVA-Med | **LLaVA-Med: Large Language and Vision Assistant for Bio-Medical** | NeurIPS | 2023 | [Paper](https://arxiv.org/abs/2306.00890) | [Project](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b) |
-| XrayGPT | **XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models** | ACL-W | 2023 | [Paper](https://arxiv.org/abs/2306.07971) | [Project](https://github.com/mbzuai-oryx/XrayGPT) |
-| MAIRA-1 | **MAIRA-1: A specialised large multimodal model for radiology report generation** | arXiv | 2023 | [Paper](https://arxiv.org/abs/2311.13668) | [Project](https://aka.ms/maira) |
-| ELIXR | **ELIXR: Towards a general purpose X-ray artificial intelligence system through alignment of large language models and radiology vision encoders** | arXiv | 2023 | [Paper](https://arxiv.org/abs/2308.01317) | Not Available |
-| LLM-CXR | **LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation** | ICLR | 2024 | [Paper](https://arxiv.org/abs/2305.11490) | [Project](https://github.com/hyn2028/llm-cxr) |
-| BiomedGPT | **BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks** | Nat Med | 2024 | [Paper](https://arxiv.org/abs/2305.17100) | [Project](https://huggingface.co/PharMolix/BioMedGPT-LM-7B) |
-| PathAsst | **PathAsst: A Generative Foundation AI Assistant towards Artificial General Intelligence of Pathology** | AAAI | 2024 | [Paper](https://arxiv.org/abs/2305.15072) | [Project](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology) |
-| CheXagent | **CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2401.12208) | [Project](https://github.com/Stanford-AIMI/CheXagent) |
-| MedDr | **MedDr: Diagnosis-Guided Bootstrapping for Large-Scale Medical Vision-Language Learning** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2404.15127) | Not Available |
-| SkinGPT-4 | **Pre-trained Multimodal Large Language Model Enhances Dermatological Diagnosis using SkinGPT-4** | Nat Commun | 2024 | [Paper](https://arxiv.org/abs/2304.10691) | Not Available |
-| OphGLM | **OphGLM: Training an Ophthalmology Large Language-and-Vision Assistant based on Instructions and Dialogue** | AIM | 2024 | [Paper](https://arxiv.org/abs/2306.11503) | [Project](https://github.com/ML-AILab/OphGLM) |
-| LLaVA-Rad | **Towards a clinically accessible radiology foundation model: open-access and lightweight, with automated evaluation** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2403.08002) | [Project](https://github.com/microsoft/LLaVA-Rad) |
-| MiniGPT-Med | **MiniGPT-Med: Large Language Model as a General Interface for Radiology Diagnosis** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2407.04106) | [Project](https://github.com/Vision-CAIR/MiniGPT-Med) |
-| MAIRA-2 | **MAIRA-2: Grounded Radiology Report Generation** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2406.04449) | [Project](https://huggingface.co/microsoft/maira-2) |
-| HuatuoGPT-Vision | **HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2406.19280) | [Project](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B) |
-| Quilt-LLaVA | **Quilt-LLaVA: Visual Instruction Tuning by Extracting Localized Narratives from Open-Source Histopathology Videos** | CVPR | 2024 | [Paper](https://arxiv.org/abs/2312.04746) | [Project](https://huggingface.co/wisdomik/Quilt-Llava-v1.5-7b) |
-| PathChat | **A Multimodal Generative AI Copilot for Human Pathology** | Nature | 2024 | [Paper](https://arxiv.org/abs/2312.07814) | [Project](https://github.com/mahmoodlab/PathChat) |
-| PathAlign | **PathAlign: A vision-language model for whole slide images in histopathology** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2406.19578) | Not Available |
-| Dr-LLaVA | **Dr-LLaVA: Visual Instruction Tuning with Symbolic Clinical Grounding** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2405.19567) | [Project](https://github.com/AlaaLab/Dr-LLaVA) |
-| STLLaVA-Med | **STLLaVA-Med: Self-Training Large Language and Vision Assistant for Medical** | EMNLP | 2024 | [Paper](https://arxiv.org/abs/2408.07035) | Not Available |
-| PA-LLaVA | **PA-LLaVA: A Large Language-Vision Assistant for Human Pathology Image Understanding** | BIBM | 2024 | [Paper](https://arxiv.org/abs/2408.09530) | Not Available |
-| SlideChat | **SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2410.11761) | [Project](https://uni-medical.github.io/SlideChat.github.io/) |
-| GMAI-VL | **GMAI-VL & GMAI-VL-5.5M: A Large Vision-Language Model and A Comprehensive Multimodal Dataset Towards General Medical AI** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2411.14522) | [Project](https://github.com/uni-medical/GMAI-VL) |
-| MedVLM-R1 | **MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2502.19634) | [Project](https://huggingface.co/JZPeterPan/MedVLM-R1) |
-| HealthGPT | **HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation** | ICML | 2025 | [Paper](https://arxiv.org/abs/2502.09838) | [Project](https://github.com/DCDmllm/HealthGPT) |
-| RadVLM | **RadVLM: A Multitask Conversational Vision-Language Model for Radiology** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2502.03333) | [Project](https://github.com/uzh-dqbm-cmi/RadVLM) |
-| Med-R1 | **Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2503.13939) | [Project](https://github.com/Yuxiang-Lai117/Med-R1) |
-| OmniV-Med | **OmniV-Med: Scaling Medical Vision-Language Model for Universal Visual Understanding** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2504.14692) | Not Available |
-| ChestX-Reasoner | **ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through Step-by-Step Verification** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2504.20930) | Not Available |
-| CXR-LLaVA | **CXR-LLaVA: A Multimodal Large Language Model for Interpreting Chest X-Ray Images** | Eur Radiology | 2025 | [Paper](https://link.springer.com/article/10.1007/s00330-024-11339-6) | Not Available |
-| BiMediX2 | **BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities** | Findings of EMNLP | 2025 | [Paper](https://aclanthology.org/2025.findings-emnlp.756.pdf) | [Project](https://github.com/mbzuai-oryx/BiMediX2) |
-| QoQ-Med | **QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.00711) | [Project](https://huggingface.co/ddvd233/QoQ-Med-VL-7B) |
-| Lingshu | **Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.07044) | [Project](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
-| | **Enhancing Step-by-Step and Verifiable Medical Reasoning in MLLMs** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.16962) | [Project](https://huggingface.co/manglu3935/Chiron-o1-2B) |
-| Fleming-VL | **Fleming-VL: Towards Universal Medical Visual Reasoning with Multimodal LLMs** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2511.00916) | [Project](https://huggingface.co/UbiquantAI/Fleming-VL-8B) |
-| | **Constructing a Unified Vision-Language Model for Chest Radiograph-based Diagnostics, Medical Education, and Data Augmentation** | Radiol Cardiothorac Imaging | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41410571/) | Not Available |
-| LUMEN | **LUMEN: Longitudinal Multi-Modal Radiology Model for Prognosis and Diagnosis** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.21142) | Not Available |
-| MediX-R1 | **MediX-R1: Medical Vision Language Model with Reinforcement Learning** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.23363) | [Project](https://huggingface.co/MBZUAI/MediX-R1-2B) |
-| MedMO | **MedMO: Medical Vision Language Model with Mixture of Experts** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.06965) | [Project](https://huggingface.co/MBZUAI/MedMO-4B) |
+| BiomedGPT | BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks | Nat Med 2024 | 2023.05 | [Paper](https://arxiv.org/abs/2305.17100) | [Project](https://huggingface.co/PharMolix/BioMedGPT-LM-7B) |
+| MedVInT | PMC-VQA: Visual Instruction Tuning for Medical Visual Question Answering | arXiv | 2023.05 | [Paper](https://arxiv.org/abs/2305.10415) | - |
+| LLaVA-Med | LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day | NeurIPS 2023 | 2023.06 | [Paper](https://arxiv.org/abs/2306.00890) | [Project](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b) |
+| XrayGPT | XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models | ACL-W 2023 | 2023.06 | [Paper](https://arxiv.org/abs/2306.07971) | [Project](https://github.com/mbzuai-oryx/XrayGPT) |
+| Med-Flamingo | Med-Flamingo: a Multimodal Medical Few-shot Learner | ML4H 2023 | 2023.07 | [Paper](https://arxiv.org/abs/2307.15189) | [Project](https://huggingface.co/med-flamingo/med-flamingo) |
+| Med-PaLM M | Towards Generalist Biomedical AI | NEJM AI 2024 / arXiv | 2023.07 | [Paper](https://arxiv.org/abs/2307.14334) | [Project](https://sites.research.google/gr/med-palm/) |
+| R2GenGPT | R2GenGPT: Radiology Report Generation with Frozen LLMs | arXiv | 2023.09 | [Paper](https://arxiv.org/abs/2309.09812) | - |
+| Qilin-Med-VL | Qilin-Med-VL: Towards Chinese Large Vision-Language Model for General Healthcare | arXiv | 2023.10 | [Paper](https://arxiv.org/abs/2310.17956) | - |
+| MAIRA-1 | MAIRA-1: A specialised large multimodal model for radiology report generation | arXiv | 2023.11 | [Paper](https://arxiv.org/abs/2311.13668) | [Project](https://aka.ms/maira) |
+| MedXChat | MedXChat: A Unified Multimodal Large Language Model Framework towards CXRs Understanding and Generation | arXiv | 2023.12 | [Paper](https://arxiv.org/abs/2312.02233) | - |
+| CheXagent | A Vision-Language Foundation Model to Enhance Efficiency of Chest X-ray Interpretation | arXiv | 2024.01 | [Paper](https://arxiv.org/abs/2401.12208) | [Project](https://github.com/Stanford-AIMI/CheXagent) |
+| BiRD | A Refer-and-Ground Multimodal Large Language Model for Biomedicine | MICCAI 2024 | 2024.06 | [Paper](https://arxiv.org/abs/2406.18146) | - |
+| HuatuoGPT-Vision | HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale | arXiv | 2024.06 | [Paper](https://arxiv.org/abs/2406.19280) | [Project](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B) |
+| Llama3-Med | Advancing High Resolution Vision-Language Models in Biomedicine | arXiv | 2024.06 | [Paper](https://arxiv.org/abs/2406.09454) | - |
+| MAIRA-2 | MAIRA-2: Grounded Radiology Report Generation | arXiv | 2024.06 | [Paper](https://arxiv.org/abs/2406.04449) | [Project](https://huggingface.co/microsoft/maira-2) |
+| MiniGPT-Med | MiniGPT-Med: Large Language Model as a General Interface for Radiology Diagnosis | arXiv | 2024.07 | [Paper](https://arxiv.org/abs/2407.04106) | [Project](https://github.com/Vision-CAIR/MiniGPT-Med) |
+| TinyLLaVA-Med | Democratizing MLLMs in Healthcare: TinyLLaVA-Med for Efficient Healthcare Diagnostics in Resource-Constrained Settings | arXiv | 2024.09 | [Paper](https://arxiv.org/abs/2409.12184) | - |
+| GMAI-VL | GMAI-VL & GMAI-VL-5.5M: A Large Vision-Language Model and A Comprehensive Multimodal Dataset Towards General Medical AI | arXiv | 2024.11 | [Paper](https://arxiv.org/abs/2411.14522) | [Project](https://github.com/uni-medical/GMAI-VL) |
+| BiMediX2 | BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities | Findings of EMNLP 2025 | 2025.01 | [Paper](https://aclanthology.org/2025.findings-emnlp.756/) | [Project](https://github.com/mbzuai-oryx/BiMediX2) |
+| CXR-LLaVA | CXR-LLaVA: a multimodal large language model for interpreting chest X-ray images | Eur Radiol 2025 | 2025.01 | [Paper](https://link.springer.com/article/10.1007/s00330-024-11339-6) | - |
+| HealthGPT | HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation | ICML 2025 | 2025.02 | [Paper](https://arxiv.org/abs/2502.09838) | [Project](https://github.com/DCDmllm/HealthGPT) |
+| MedVLM-R1 | MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning | arXiv | 2025.02 | [Paper](https://arxiv.org/abs/2502.19634) | [Project](https://huggingface.co/JZPeterPan/MedVLM-R1) |
+| RadVLM | RadVLM: A Multitask Conversational Vision-Language Model for Radiology | arXiv | 2025.02 | [Paper](https://arxiv.org/abs/2502.03333) | [Project](https://github.com/uzh-dqbm-cmi/RadVLM) |
+| Med-R1 | Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.13939) | [Project](https://github.com/Yuxiang-Lai117/Med-R1) |
+| RetinalGPT | RetinalGPT: A Retinal Clinical Preference Conversational Assistant Powered by Large Vision-Language Models | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.03987) | - |
+| OmniV-Med | OmniV-Med: Scaling Medical Vision-Language Model for Universal Visual Understanding | arXiv | 2025.04 | [Paper](https://arxiv.org/abs/2504.14692) | - |
+| UMed-LVLM | Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback | ACL 2025 | 2025.05 | [Paper](https://aclanthology.org/2025.acl-long.636/) | - |
+| Lingshu | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | arXiv | 2025.06 | [Paper](https://arxiv.org/abs/2506.07044) | [Project](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
+| QoQ-Med | QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training | arXiv | 2025.06 | [Paper](https://arxiv.org/abs/2506.00711) | [Project](https://huggingface.co/ddvd233/QoQ-Med-VL-7B) |
+| ChestGPT | ChestGPT: Integrating Large Language Models and Vision Transformers for Disease Detection and Localization in Chest X-Rays | arXiv | 2025.07 | [Paper](https://arxiv.org/abs/2507.03739) | - |
+| MedGemma | MedGemma Technical Report | arXiv | 2025.07 | [Paper](https://arxiv.org/abs/2507.05201) | [Project](https://huggingface.co/google/medgemma-4b-it) |
+| Fleming-VL | Fleming-VL: Towards Universal Medical Visual Reasoning with Multimodal LLMs | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.00916) | [Project](https://huggingface.co/UbiquantAI/Fleming-VL-8B) |
+| LUMEN | LUMEN: Longitudinal Multi-Modal Radiology Model for Prognosis and Diagnosis | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.21142) | - |
+| MedMO | MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.06965) | [Project](https://huggingface.co/MBZUAI/MedMO-4B) |
+| MediX-R1 | MediX-R1: Open Ended Medical Reinforcement Learning | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.23363) | [Project](https://huggingface.co/MBZUAI/MediX-R1-2B) |
 
----
+## **Unified 2D + Serialized-3D**
 
-### **3D ViT + LLM**
-
-| Method | Title | Venue | Date | Paper Link | Project Page |
+| Method | Title | Venue | Date | Paper | Project |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| CT2Rep | **CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging** | MICCAI | 2024 | [Paper](https://arxiv.org/abs/2403.06801) | [Project](https://github.com/ibrahimethemhamamci/CT2Rep) |
-| CT-CHAT | **Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography** | arXiv / Nat Biomed Eng | 2024 / 2026 | [Paper](https://arxiv.org/abs/2403.17834) | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
-| M3D-LaMed | **M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2404.00578) | [Project](https://github.com/BAAI-DCAI/M3D) |
-| Merlin | **Merlin: A Computed Tomography Vision-Language Foundation Model and Dataset** | arXiv / Nature | 2024 / 2026 | [Paper](https://arxiv.org/abs/2406.06512) | [Project](https://github.com/StanfordMIMI/Merlin) |
-| BrainGPT | **Towards a Holistic Framework for Multimodal LLMs in 3D Brain CT Report Generation** | arXiv / Nat Commun | 2024 / 2025 | [Paper](https://arxiv.org/abs/2407.02235) | [Project](https://github.com/charlierabea/FORTE) |
-| 3D-CT-GPT | **3D-CT-GPT: Generating 3D Radiology Reports through Integration of Large Vision-Language Models** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2409.19330) | Not Available |
-| E3D-GPT | **E3D-GPT: Enhanced 3D Visual Foundation for Medical Vision-Language Model** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2410.14200) | Not Available |
-| MS-VLM | **Read Like a Radiologist: Efficient Vision-Language Model for 3D Medical Imaging Interpretation** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2412.13558) | Not Available |
-| Med3DVLM | **Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis** | IEEE JBHI | 2025 | [Paper](https://arxiv.org/abs/2503.20047) | [Project](https://github.com/mirthAI/Med3DVLM) |
-| Med3D-R1 | **Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.01200) | Not Available |
-| HSENet | **HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.09634) | Not Available |
-| BTB3D | **Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Medical Imaging** | NeurIPS | 2025 | [Paper](https://arxiv.org/abs/2510.20639) | [Project](https://github.com/ibrahimethemhamamci/BTB3D) |
-| COLIPRI | **Comprehensive Language-Image Pre-training for 3D Medical Image Understanding** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.15042) | Not Available |
-| Brain3D | **Brain3D: Brain Report Automation via Inflated Vision Transformers in 3D** | arXiv | 2026 | [Paper](https://arxiv.org/abs/2602.22098) | [Project](https://github.com/PRAISELab-PicusLab/BrainGemma3D) |
+| RadFM | Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data | Nat Commun 2025 / arXiv | 2023.08 | [Paper](https://arxiv.org/abs/2308.02463) | [Project](https://github.com/chaoyi-wu/RadFM) |
+| Med-Gemini | Advancing Multimodal Medical Capabilities of Gemini | Nat Med 2025 / arXiv | 2024.05 | [Paper](https://arxiv.org/abs/2405.03162) | [Project](https://research.google/blog/advancing-medical-ai-with-med-gemini/) |
+| Med-2E3 | Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model | arXiv | 2024.11 | [Paper](https://arxiv.org/abs/2411.12783) | - |
+| MiniGPT-Pancreas | MiniGPT-Pancreas: Multimodal Large Language Model for Pancreas Cancer Classification and Detection | J Healthc Inform Res 2025 / arXiv | 2024.12 | [Paper](https://arxiv.org/abs/2412.15925) | - |
+| VILA-M3 | VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge | CVPR 2025 | 2025.06 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Nath_VILA-M3_Enhancing_Vision-Language_Models_with_Medical_Expert_Knowledge_CVPR_2025_paper.html) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
+| Hulu-Med | Hulu-Med: A Transparent Generalist Model towards Holistic Medical Vision-Language Understanding | arXiv | 2025.10 | [Paper](https://arxiv.org/abs/2510.08668) | [Project](https://github.com/ZJUI-AI4H/Hulu-Med) |
+| OctoMed | OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.23269) | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
 
----
+## **Native 3D-Volume**
 
-### **Hybrid / Serialized Volume + LLM**
-
-| Method | Title | Venue | Date | Paper Link | Project Page |
+| Method | Title | Venue | Date | Paper | Project |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| RadFM | **RadFM: Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data** | arXiv / Nat Commun | 2023 / 2025 | [Paper](https://arxiv.org/abs/2308.02463) | [Project](https://github.com/chaoyi-wu/RadFM) |
-| Med-PaLM M | **Towards Generalist Biomedical AI** | NEJM AI | 2024 | [Paper](https://arxiv.org/abs/2307.14334) | [Project](https://sites.research.google/gr/med-palm/) |
-| MedBLIP | **MedBLIP: Bootstrapping Language-Image Pre-training from 3D Medical Images and Texts** | ACCV | 2024 | [Paper](https://arxiv.org/abs/2305.10799) | Not Available |
-| Med-Gemini | **Advancing Multimodal Medical Capabilities of Gemini** | arXiv / Nat Med | 2024 / 2025 | [Paper](https://arxiv.org/abs/2405.03162) | [Project](https://research.google/blog/advancing-medical-ai-with-med-gemini/) |
-| Med-2E3 | **Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model** | arXiv | 2024 | [Paper](https://arxiv.org/abs/2411.12783) | Not Available |
-| VILA-M3 | **VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge** | CVPR | 2025 | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Nath_VILA-M3_Enhancing_Vision-Language_Models_with_Medical_Expert_Knowledge_CVPR_2025_paper.html) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
-| MedGemma | **MedGemma Technical Report** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2507.05201) | [Project](https://huggingface.co/google/medgemma-4b-it) |
-| Hulu-Med | **Hulu-Med: A Transparent Generalist Model towards Holistic Medical Vision-Language Understanding** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2510.08668) | [Project](https://github.com/ZJUI-AI4H/Hulu-Med) |
-| OctoMed | **OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning** | arXiv | 2025 | [Paper](https://arxiv.org/abs/2511.23269) | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
+| CT2Rep | CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging | MICCAI 2024 / arXiv | 2024.03 | [Paper](https://arxiv.org/abs/2403.06801) | [Project](https://github.com/ibrahimethemhamamci/CT2Rep) |
+| Dia-LLaMA | Dia-LLaMA: Towards Large Language Model-driven CT Report Generation | arXiv | 2024.03 | [Paper](https://arxiv.org/abs/2403.16386) | - |
+| M3D-LaMed | M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models | ICLR 2025 / arXiv | 2024.04 | [Paper](https://arxiv.org/abs/2404.00578) | [Project](https://github.com/BAAI-DCAI/M3D) |
+| Merlin | Merlin: A Computed Tomography Vision-Language Foundation Model and Dataset | Nature 2026 / arXiv | 2024.06 | [Paper](https://arxiv.org/abs/2406.06512) | [Project](https://github.com/StanfordMIMI/Merlin) |
+| BrainGPT | Towards a Holistic Framework for Multimodal Large Language Models in Three-dimensional Brain CT Report Generation | Nat Commun 2025 / arXiv | 2024.07 | [Paper](https://arxiv.org/abs/2407.02235) | [Project](https://github.com/charlierabea/FORTE) |
+| 3D-CT-GPT | 3D-CT-GPT: Generating 3D Radiology Reports through Integration of Large Vision-Language Models | arXiv | 2024.09 | [Paper](https://arxiv.org/abs/2409.19330) | - |
+| E3D-GPT | E3D-GPT: Enhanced 3D Visual Foundation for Medical Vision-Language Model | arXiv | 2024.10 | [Paper](https://arxiv.org/abs/2410.14200) | - |
+| Reg2RG | Large Language Model with Region-guided Referring and Grounding for CT Report Generation | arXiv | 2024.11 | [Paper](https://arxiv.org/abs/2411.15539) | - |
+| MS-VLM | Read Like a Radiologist: Efficient Vision-Language Model for 3D Medical Imaging Interpretation | arXiv | 2024.12 | [Paper](https://arxiv.org/abs/2412.13558) | - |
+| MEPNet | MEPNet: Medical Entity-balanced Prompting Network for Brain CT Report Generation | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.17784) | - |
+| Med3DVLM | Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis | IEEE JBHI 2025 / arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.20047) | [Project](https://github.com/mirthAI/Med3DVLM) |
+| HSENet | HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding | arXiv | 2025.06 | [Paper](https://arxiv.org/abs/2506.09634) | - |
+| MedRegion-CT | MedRegion-CT: Region-Focused Multimodal LLM for Comprehensive 3D CT Report Generation | arXiv | 2025.06 | [Paper](https://arxiv.org/abs/2506.23102) | - |
+| mpLLM | Multimodal LLM With Hierarchical Mixture-of-Experts for VQA on 3D Brain MRI | arXiv | 2025.09 | [Paper](https://arxiv.org/abs/2509.25889) | - |
+| 3DReasonKnee | 3DReasonKnee: Advancing Grounded Reasoning in Medical Vision Language Models | arXiv | 2025.10 | [Paper](https://arxiv.org/abs/2510.20967) | - |
+| PETAR | PETAR: Localized Findings Generation with Mask-Aware Vision-Language Modeling for PET Automated Reporting | arXiv | 2025.10 | [Paper](https://arxiv.org/abs/2510.27680) | - |
+| PETRG-3D | Vision-Language Models for Automated 3D PET/CT Report Generation | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.20145) | - |
+| Brain3D | Brain3D: Brain Report Automation via Inflated Vision Transformers in 3D | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.22098) | [Project](https://github.com/PRAISELab-PicusLab/BrainGemma3D) |
+| Med3D-R1 | Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.01200) | - |
 
 ---
 
