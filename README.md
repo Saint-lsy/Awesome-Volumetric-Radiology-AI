@@ -188,17 +188,18 @@
 
 | Method | Title | Venue | Date | Paper | Project |
 | --- | --- | --- | --- | --- | --- |
-| IteR-MRL | Iteratively-Refined Interactive 3D Medical Image Segmentation with Multi-Agent Reinforcement Learning | CVPR | 2020 | [Paper](https://arxiv.org/abs/1911.10334) | - |
-| BS-IRIS | Boundary-aware Supervoxel-level Iteratively Refined Interactive 3D Image Segmentation with Multi-agent Reinforcement Learning | TMI | 2023 | [Paper](https://arxiv.org/abs/2303.10692) | - |
 | MDAgents | MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making | NeurIPS 2024 | 2024.12 (arXiv: 2024.04) | [Paper](https://arxiv.org/abs/2404.15155) | [Project](https://github.com/mitmedialab/MDAgents) |
 | MMedAgent | MMedAgent: Learning to Use Medical Tools with Multi-modal Agent | Findings of EMNLP 2024 | 2024.11 (arXiv: 2024.07) | [Paper](https://arxiv.org/abs/2407.02483) | [Project](https://github.com/Wangyixinxin/MMedAgent) |
 | MedAgent-Pro | MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow | ICLR 2026 | 2025.03 | [Paper](https://arxiv.org/abs/2503.18968) | [Project](https://github.com/jinlab-imvr/MedAgent-Pro) |
 | VILA-M3 | VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge | CVPR25 | 2024.11 | [Paper](https://arxiv.org/abs/2411.12915) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
 | CT-Agent | CT-Agent: A Multimodal-LLM Agent for 3D CT Radiology Question Answering | arXiv | 2025.05 | [Paper](https://arxiv.org/abs/2505.16229) | - |
 | M^3Builder | M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging | AI for Clinical Applications 2025 | 2025.05 | [Paper](https://openreview.net/forum?id=CwZ7fYRZtv) | - |
+| SAMIRA | Towards user-centered interactive medical image segmentation in VR with an assistive AI agent | arXiv | 2025.05 | [Paper](https://arxiv.org/abs/2505.07214) | - |
 | MAM | MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration | Findings of ACL 2025 | 2025.07 (arXiv: 2025.06) | [Paper](https://arxiv.org/abs/2506.19835) | [Project](https://github.com/yczhou001/MAM) |
 | AgentMRI | AgentMRI: A Vision Language Model-Powered AI System for Self-regulating MRI Reconstruction with Multiple Degradations | Journal of Imaging Informatics in Medicine | 2025.07 | [Paper](https://pubmed.ncbi.nlm.nih.gov/40696264/) | - |
 | CTPA-Agent | Vision-language model for report generation and outcome prediction in CT pulmonary angiogram | npj Digital Medicine | 2025.07 | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12255762/) | [Project](https://github.com/zzs95/CTPA-Agent) |
+| TissueLab | A co-evolving agentic AI system for medical imaging analysis | arXiv | 2025.09 | [Paper](https://arxiv.org/pdf/2509.20279) | [Project](https://github.com/zhihuanglab/TissueLab) |
+| VoxelPrompt | VoxelPrompt: A Vision Agent for End-to-End Medical Image Analysis | arXiv | 2025.10 | [Paper](https://www.notion.so/Review-94a38ab6df17839ea7d501b95a6fd898?pvs=21) | - |
 | MedAgentSim | MedAgentSim: Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions | MICCAI 2025 | 2025.10 (arXiv: 2025.03) | [Paper](https://arxiv.org/abs/2503.22678) | [Project](https://medagentsim.netlify.app/) |
 | AURA | AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation | MICCAI Workshop 2025 | 2025.10 (arXiv: 2025.07) | [Paper](https://arxiv.org/abs/2507.16940) | [Project](https://nimafathi.github.io/AURA/) |
 | MedEyes | MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.22018) | [Project](https://github.com/zhcz328/MedEyes) |
@@ -206,6 +207,7 @@
 | Radiologist Copilot | Radiologist Copilot: An Agentic Framework Orchestrating Specialized Tools for Reliable Radiology Reporting | arXiv | 2025.12 | [Paper](https://arxiv.org/abs/2512.02814) | - |
 | INFORM-CT | INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT | MIDL 2026 | 2025.12 | [Paper](https://openreview.net/forum?id=ThdnZtQ6Dy) | [Project](https://anonymous.4open.science/r/InformCT_public-8A77/README.md) |
 | IBISAgent | IBISAgent: Reinforcing Pixel-Level Visual Reasoning in MLLMs for Universal Biomedical Object Referring and Segmentation | arXiv | 2026.01 | [Paper](https://arxiv.org/abs/2601.03054) | - |
+|  | An Explainable Agentic AI Framework for Uncertainty-Aware and Abstention-Enabled Acute Ischemic Stroke Imaging Decisions | arXiv | 2026.01 | [Paper](https://arxiv.org/abs/2601.01008) | - |
 | LungNoduleAgent | LungNoduleAgent: A Collaborative Multi-Agent System for Precision Diagnosis of Lung Nodules | AAAI 2026 | 2026.02 (arXiv: 2025.11) | [Paper](https://arxiv.org/abs/2511.21042) | [Project](https://github.com/ImYangC7/LungNoduleAgent) |
 | 3DMedAgent | 3DMedAgent: Unified Perception-to-Understanding for 3D Medical Analysis | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.18064) | [Project](https://github.com/jinlab-imvr/3DMedAgent) |
 | MedSAM-Agent | MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.03320) | [Project](https://github.com/CUHK-AIM-Group/MedSAM-Agent) |
@@ -221,9 +223,13 @@
 | MedMASLab | MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems | arXiv | 2026.03 | [Paper](https://arxiv.org/pdf/2603.09909) | [Project](https://github.com/NUS-Project/MedMASLab/) |
 | ClinicalAgents | ClinicalAgents: Multi-Agent Orchestration for Clinical Decision Making with Dual-Memory | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.2618) | - |
 | Doctorina MedBench | Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.25821) | - |
+| SEER | Skill-Evolving Grounded Reasoning for Free-Text Promptable 3D Medical Image Segmentation | arXiv | 2026.03 | [Paper](https://arxiv.org/pdf/2603.08215) |  |
 | RadAgent | RadAgent: A Tool-Using AI Agent for Stepwise Interpretation of Chest Computed Tomography | arXiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.15231) | [Project](https://rad-agent.github.io/) |
 | BAAI Cardiac Agent | BAAI Cardiac Agent: An intelligent multimodal agent for automated reasoning and diagnosis of cardiovascular diseases from cardiac magnetic resonance imaging | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.04078) | [Project](https://github.com/plantain-herb/Cardiac-Agent) |
 | MARCH | MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation | ACL 2026 | 2026.04 | [Paper](https://arxiv.org/abs/2604.16175) | - |
+|  | Agentic Large Language Models for Training-Free Neuro-Radiological Image Analysis | arXiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.16729) | - |
+| Agent4MR | Agentic MR sequence development: leveraging LLMs with MR skills for automatic physics-informed sequence development | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.13282) | - |
+| Neuro-Oracle | Neuro-Oracle: A Trajectory-Aware Agentic RAG Framework for Interpretable Epilepsy Surgical Prognosis | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.14216) | - |
 ---
 
 ## **Datasets & Benchmarks**
