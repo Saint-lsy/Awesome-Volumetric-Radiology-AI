@@ -1,5 +1,18 @@
 # Awesome-3D-Radiology-Analysis-FM
 
+## Contents
+
+1. [Foundation Models](#foundation-models)  
+   1.1 [Self-Supervised Pre-training](#self-supervised-pre-training)  
+   1.2 [Contrastive Learning (CLIP-based Methods)](#contrastive-learning-clip-based-methods)  
+   1.3 [MLLM-based Methods](#mllm-based-methods)  
+   1.3.1 [2D-only](#2d-only)  
+   1.3.2 [Unified 2D + Serialized-3D](#unified-2d--serialized-3d)  
+   1.3.3 [Native 3D-Volume](#native-3d-volume)
+2. [Agentic Systems](#agentic-systems)
+3. [Datasets & Benchmarks](#datasets--benchmarks)
+4. [Related Surveys](#related-surveys)
+
 ---
 ## Foundation Models
 
@@ -213,9 +226,7 @@
 | MARCH | MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation | ACL 2026 | 2026.04 | [Paper](https://arxiv.org/abs/2604.16175) | - |
 ---
 
-## **Datasets, Benchmarks & Evaluation Metrics**
-
-### **Datasets & Benchmarks**
+## **Datasets & Benchmarks**
 
 | **Dataset** | **Title** | **Date** | **Venue** | **Project** | **Paper Link** |
 | --- | --- | --- | --- | --- | --- |
@@ -386,7 +397,7 @@
 | Curia-2 | Curia-2: Scaling Self-Supervised Learning for Radiology Foundation Models | 2026.04 | arXiv |  | [Paper](https://arxiv.org/abs/2604.01987) |
 ---
 
-## **Surveys**
+## **Related Surveys**
 | Title | Venue | Date | Paper Link | Project Page |
 | :--- | :--- | :--- | :--- | :--- |
 | **Large-Scale Foundation Models for Radiological Image Analysis: Clinical Applications, Technical Challenges, and Future Directions** | J Imaging Inform Med | 2026 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41530420/) | Not Available |
