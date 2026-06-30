@@ -188,6 +188,7 @@
 | CTest-Metric | CTest-Metric: A Unified Framework to Assess Clinical Validity of Metrics for CT Report Generation | ISBI2026 | 2026.01 | [Paper](https://arxiv.org/abs/2601.11488) | - |
 | Brain3D | Brain3D: Brain Report Automation via Inflated Vision Transformers in 3D | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.22098) | [Project](https://github.com/PRAISELab-PicusLab/BrainGemma3D) |
 | Med3D-R1 | Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.01200) | - |
+| LoV3D | LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.12071) | - |
 | Ker-VLJEPA-3B | Curriculum-Driven 3D CT Report Generation via Language-Free Visual Grafting and Zone-Constrained Compression | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.23308)  | [Project](https://huggingface.co/IBI-CAAI/Ker-VLJEPA-3B) |
 | U-VLM | U-VLM: Hierarchical Vision Language Modeling for Report Generation | arXiv | 2026.02 | [Paper](https://arxiv.org/pdf/2603.00479) | [Project](https://github.com/yinghemedical/U-VLM) |
 | CT-CHAT | Generalist foundation models from a multimodal dataset for 3D computed tomography | Nature Biomedical Engineering | 2026.02 | [Paper](https://www.nature.com/articles/s41551-025-01599-y) | [Project](https://github.com/ibrahimethemhamamci/CT-CHAT) |
@@ -208,6 +209,8 @@
 | MDAgents | MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making | NeurIPS 2024 | 2024.12 (arXiv: 2024.04) | [Paper](https://arxiv.org/abs/2404.15155) | [Project](https://github.com/mitmedialab/MDAgents) |
 | MMedAgent | MMedAgent: Learning to Use Medical Tools with Multi-modal Agent | Findings of EMNLP 2024 | 2024.11 (arXiv: 2024.07) | [Paper](https://arxiv.org/abs/2407.02483) | [Project](https://github.com/Wangyixinxin/MMedAgent) |
 | MedAgent-Pro | MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow | ICLR 2026 | 2025.03 | [Paper](https://arxiv.org/abs/2503.18968) | [Project](https://github.com/jinlab-imvr/MedAgent-Pro) |
+| DOLA | Autonomous Radiotherapy Treatment Planning Using DOLA: A Privacy-Preserving, LLM-Based Optimization Agent | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.17553) | - |
+| GPT-Plan | A Feasibility Study of Automating Radiotherapy Planning with Large Language Model Agents | Physics in Medicine and Biology | 2025.03 | [Paper](https://doi.org/10.1088/1361-6560/adbff1) | - |
 | VILA-M3 | VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge | CVPR25 | 2024.11 | [Paper](https://arxiv.org/abs/2411.12915) | [Project](https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework) |
 | CT-Agent | CT-Agent: A Multimodal-LLM Agent for 3D CT Radiology Question Answering | arXiv | 2025.05 | [Paper](https://arxiv.org/abs/2505.16229) | - |
 | M^3Builder | M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging | AI for Clinical Applications 2025 | 2025.05 | [Paper](https://openreview.net/forum?id=CwZ7fYRZtv) | - |
@@ -216,7 +219,8 @@
 | AgentMRI | AgentMRI: A Vision Language Model-Powered AI System for Self-regulating MRI Reconstruction with Multiple Degradations | Journal of Imaging Informatics in Medicine | 2025.07 | [Paper](https://pubmed.ncbi.nlm.nih.gov/40696264/) | - |
 | CTPA-Agent | Vision-language model for report generation and outcome prediction in CT pulmonary angiogram | npj Digital Medicine | 2025.07 | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12255762/) | [Project](https://github.com/zzs95/CTPA-Agent) |
 | TissueLab | A co-evolving agentic AI system for medical imaging analysis | arXiv | 2025.09 | [Paper](https://arxiv.org/pdf/2509.20279) | [Project](https://github.com/zhihuanglab/TissueLab) |
-| VoxelPrompt | VoxelPrompt: A Vision Agent for End-to-End Medical Image Analysis | arXiv | 2025.10 | [Paper](https://www.notion.so/Review-94a38ab6df17839ea7d501b95a6fd898?pvs=21) | - |
+| Scan-do Attitude | Scan-do Attitude: Towards Autonomous CT Protocol Management Using a Large Language Model Agent | Agentic AI for Medicine / Springer | 2025.09 | [Paper](https://arxiv.org/abs/2509.20270) | - |
+| VoxelPrompt | VoxelPrompt: A Vision Agent for End-to-End Medical Image Analysis | arXiv | 2025.10 | [Paper](https://arxiv.org/abs/2410.08397) | - |
 | MedAgentSim | MedAgentSim: Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions | MICCAI 2025 | 2025.10 (arXiv: 2025.03) | [Paper](https://arxiv.org/abs/2503.22678) | [Project](https://medagentsim.netlify.app/) |
 | AURA | AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation | MICCAI Workshop 2025 | 2025.10 (arXiv: 2025.07) | [Paper](https://arxiv.org/abs/2507.16940) | [Project](https://nimafathi.github.io/AURA/) |
 | MedEyes | MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.22018) | [Project](https://github.com/zhcz328/MedEyes) |
@@ -224,6 +228,7 @@
 | Radiologist Copilot | Radiologist Copilot: An Agentic Framework Orchestrating Specialized Tools for Reliable Radiology Reporting | arXiv | 2025.12 | [Paper](https://arxiv.org/abs/2512.02814) | - |
 | INFORM-CT | INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT | MIDL 2026 | 2025.12 | [Paper](https://openreview.net/forum?id=ThdnZtQ6Dy) | [Project](https://anonymous.4open.science/r/InformCT_public-8A77/README.md) |
 | IBISAgent | IBISAgent: Reinforcing Pixel-Level Visual Reasoning in MLLMs for Universal Biomedical Object Referring and Segmentation | arXiv | 2026.01 | [Paper](https://arxiv.org/abs/2601.03054) | - |
+| MedVistaGym | MEDVISTAGYM: A Scalable Training Environment for Thinking with Medical Images via Tool-Integrated Reinforcement Learning | arXiv | 2026.01 | [Paper](https://arxiv.org/abs/2601.07107) | - |
 |  | An Explainable Agentic AI Framework for Uncertainty-Aware and Abstention-Enabled Acute Ischemic Stroke Imaging Decisions | arXiv | 2026.01 | [Paper](https://arxiv.org/abs/2601.01008) | - |
 | LungNoduleAgent | LungNoduleAgent: A Collaborative Multi-Agent System for Precision Diagnosis of Lung Nodules | AAAI 2026 | 2026.02 (arXiv: 2025.11) | [Paper](https://arxiv.org/abs/2511.21042) | [Project](https://github.com/ImYangC7/LungNoduleAgent) |
 | 3DMedAgent | 3DMedAgent: Unified Perception-to-Understanding for 3D Medical Analysis | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.18064) | [Project](https://github.com/jinlab-imvr/3DMedAgent) |
@@ -233,6 +238,7 @@
 | CoMMa | CoMMa: Contribution-Aware Medical Multi-Agents From A Game-Theoretic Perspective | arXiv | 2026.02 | [Paper](https://arxiv.org/abs/2602.09159) | - |
 | MedSegAgent | MedSegAgent: A Universal and Scalable Multi-Agent System for Instructive Medical Image Segmentation | IEEE JBHI | 2026.03 | [Paper](https://ieeexplore.ieee.org/document/11455620) | [Project](https://github.com/uni-medical/MedSegAgent) |
 | CT-Flow | CT-Flow: Orchestrating CT Interpretation Workflow with Model Context Protocol Servers | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.00123) | - |
+| Agent-MIRA | Agent-MIRA: AI-orchestrated Medical Imaging Agent for PET Image Retrieval and Assistance | Computerized Medical Imaging and Graphics | 2026.03 | [Paper](https://doi.org/10.1016/j.compmedimag.2026.102725) | - |
 | Meissa | Meissa: Multi-modal Medical Agentic Intelligence | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.09018) | [Project](https://github.com/Schuture/Meissa) |
 | BT-RADS Agent | Agentic Automation of BT-RADS Scoring: End-to-End Multi-Agent System for Standardized Brain Tumor Follow-up Assessment | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.21494) | - |
 | TheraAgent | TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.13676) | - |
@@ -243,12 +249,23 @@
 | SEER | Skill-Evolving Grounded Reasoning for Free-Text Promptable 3D Medical Image Segmentation | arXiv | 2026.03 | [Paper](https://arxiv.org/pdf/2603.08215) |  |
 | RadAgent | RadAgent: A Tool-Using AI Agent for Stepwise Interpretation of Chest Computed Tomography | arXiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.15231) | [Project](https://rad-agent.github.io/) |
 | BAAI Cardiac Agent | BAAI Cardiac Agent: An intelligent multimodal agent for automated reasoning and diagnosis of cardiovascular diseases from cardiac magnetic resonance imaging | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.04078) | [Project](https://github.com/plantain-herb/Cardiac-Agent) |
+| DosimeTron | DosimeTron: Automating Personalized Monte Carlo Radiation Dosimetry in PET/CT with Agentic AI | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.06280) | - |
 | MARCH | MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation | ACL 2026 | 2026.04 | [Paper](https://arxiv.org/abs/2604.16175) | - |
-|  | Agentic Large Language Models for Training-Free Neuro-Radiological Image Analysis | arXiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.16729) | - |
+| Neuro-Radiological Agent | Agentic Large Language Models for Training-Free Neuro-Radiological Image Analysis | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.16729) | - |
 | Agent4MR | Agentic MR sequence development: leveraging LLMs with MR skills for automatic physics-informed sequence development | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.13282) | - |
+| Artifact-based Agent Framework | An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.21936) | - |
+| NeuroClaw | NeuroClaw: Closed-Loop Agentic AI for Executable and Reproducible Neuroimaging Research | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.24696) | - |
 | Neuro-Oracle | Neuro-Oracle: A Trajectory-Aware Agentic RAG Framework for Interpretable Epilepsy Surgical Prognosis | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.14216) | - |
 | MedScribe | MedScribe: Clinically Grounded CT Reporting through Agentic Workflows | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.01779) | - |
+| GAZE | GAZE: Grounded Agentic Zero-shot Evaluation with Viewer-Level Tools and Literature Retrieval on Rare Brain MRI | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.00876) | - |
+| NeuroAgent | NeuroAgent: LLM Agents for Multimodal Neuroimaging Analysis and Research | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.06584) | - |
+| NEXUS | Towards a Virtual Neuroscientist: Autonomous Neuroimaging Analysis via Multi-Agent Collaboration | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.09366) | [Project](https://github.com/LearningKeqi/Virtual-Neuroscientist-NEXUS) |
 | M2M-LLM-RT | A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2606.00922) | - |
+| SpineAgent | A Multi-Agent System for Spine MRI Report Generation from Multi-Sequence Imaging | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.08897) | - |
+| MedToolica | MedToolica: Finetuning-Free Agentic Compositional Tool Learning for 3D CT Reasoning | Machine Learning and Knowledge Extraction | 2026.06 | [Paper](https://doi.org/10.3390/make8060162) | [Project](https://github.com/serag-ai/MedToolica) |
+| MARTP | MARTP: A Multi-Agent Simulation Framework for Automated Radiation Therapy Planning Based on LLMs | Physics in Medicine and Biology | 2026.06 | [Paper](https://doi.org/10.1088/1361-6560/ae6af6) | - |
+| SAGE | Automated Stereotactic Radiosurgery Planning Using a Human-in-the-Loop Reasoning Large Language Model Agent | Research Square | 2026.06 | [Paper](https://doi.org/10.21203/rs.3.rs-8612138/v1) | - |
+| PET/CT Agent | End-to-End PET/CT Interpretation and Quantification with an LLM-Orchestrated AI Agent: A Real-World Pilot Study | Journal of Nuclear Medicine | 2026.06 | [Paper](https://doi.org/10.2967/jnumed.126.272362) | - |
 ---
 
 ## **Datasets & Benchmarks**
@@ -400,6 +417,7 @@
 | CT-3DRRG | Argus: Benchmarking and Enhancing Vision-Language Models for 3D Radiology Report Generation | 2024.06 | arXiv | — | [Paper](https://arxiv.org/abs/2406.07146) |
 | RadGenome-Brain MRI | AutoRG-Brain: Grounded Report Generation for Brain MRI | 2024.10 | MICCAI 2024 | [Project](https://github.com/ljy19970415/AutoRG-Brain) | [Paper](https://arxiv.org/abs/2407.16684) |
 | MedShapeNet | MedShapeNet -- A Large-Scale Dataset of 3D Medical Shapes for Computer Vision | 2024.12 | Biomedizinische Technik | [Project](https://medshapenet.ikim.nrw/) | [Paper](https://arxiv.org/abs/2308.16139) |
+| RadA-BenchPlat | How well can modern LLMs act as agent cores in radiology environments? | 2024.12 | arXiv |  | [Paper](https://arxiv.org/abs/2412.09529) |
 | MedVL-CT69K | Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding | 2025.01 | ICLR 2025 | [Project](https://github.com/alibaba-damo-academy/fvlm) | [Paper](https://arxiv.org/abs/2501.14548) |
 | Triad | Triad: Vision Foundation Model for 3D Magnetic Resonance Imaging | 2025.02 | arXiv |  | [Paper](https://arxiv.org/abs/2502.14064) |
 | 3D-BrainCT | Towards a holistic framework for multimodal LLM in 3D brain CT radiology report generation | 2025.03 | Nat. Commun. | — | [Paper](https://www.nature.com/articles/s41467-025-57426-0) |
@@ -423,11 +441,14 @@
 | CT-SpatialVQA | Lost in Volume: The CT-SpatialVQA Benchmark for Evaluating Semantic-Spatial Understanding of 3D Medical Vision-Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.08787) |
 | Med-StepBench | Med-StepBench: A Hierarchical Reasoning Framework for Evaluating Hallucinations in Medical Vision-Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.10002) |
 | DeepTumorVQA-H | DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented Agents | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.09679) |
+| ABRA | ABRA: Agent Benchmark for Radiology Applications | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.11224) |
+| RadSaFE-200 | Safety and Accuracy Follow Different Scaling Laws in Clinical Large Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.04039) |
 | Oncology VQA Benchmark | Automated Report-Derived Oncology VQA Benchmark for Evaluating Vision-Language Models on 3D Medical Imaging | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.02809) |
 | Abdomen-NCCT Benchmark | A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.16991) |
 | RadOT-Eval | RadOT-Eval: Auditable Structured-Evidence Transport for Radiology Report Evaluation | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.08769) |
 | ReportQA | ReportQA: QA-Based Radiology Report Evaluation | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.15037) |
 | CORTEX | CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.27264) |
+| MedCTA | MedCTA: A Benchmark for Clinical Tool Agents | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.11702) |
 ---
 
 ## **Related Surveys**
