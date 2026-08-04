@@ -305,189 +305,189 @@
 
 ## **Datasets & Benchmarks**
 
-| **Dataset** | **Title** | **Date** | **Venue** | **Project** | **Paper Link** |
+| **Dataset** | **Title** | **Date** | **Venue** | **Paper Link** | **Project** |
 | --- | --- | --- | --- | --- | --- |
-| SLIVER07 | Segmentation in the liver 2007 (SLIVER07) challenge | 2007.09 | MICCAI Workshop | [Project](https://sliver07.grand-challenge.org/) | [Paper](https://ieeexplore.ieee.org/abstract/document/4781564) |
-| SKI10 | Segmentation of Knee Images 2010 (SKI10) | 2010.09 | MICCAI Challenge | [Project](https://ski10.grand-challenge.org/Home/) | [Paper](https://www.researchgate.net/publication/266213062_Segmentation_of_Knee_Images_A_Grand_Challenge) |
-| LIDC-IDRI | Data From LIDC-IDRI: The Lung Image Database Consortium and Image Database Resource Initiative | 2011.06 | Med Phys | [Project](https://www.cancerimagingarchive.net/collection/lidc-idri/) | [Paper](https://doi.org/10.1118/1.3528204) |
-| LOLA11 | LOLA11: LObe and Lung Analysis 2011 Challenge | 2011.09 | MICCAI Workshop | [Project](https://lola11.grand-challenge.org/) |  |
-| STACOM 2011 Motion Tracking | STACOM 2011: Cardiac Motion Tracking Challenge | 2011.09 | MICCAI Workshop | [Project](https://www.cardiacatlas.org/motion-tracking-2011-challenge/) | [Paper](https://link.springer.com/chapter/10.1007/978-3-642-28326-0_4) |
-| Mindboggle-101 | Mindboggle-101: Evaluating Brain Image Labeling Methods | 2012.09 | NeuroImage | [Project](https://mindboggle.info/data.html) | [Paper](https://www.sci-hub.ru/10.3389/fnins.2012.00171/full) |
-| PROMISE12 | PROMISE12: Prostate MR Image Segmentation 2012 Challenge | 2012.10 | MICCAI Challenge | [Project](https://promise12.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841513001734) |
-| NLST | The National Lung Screening Trial: overview and study design | 2013.01 | Radiology | [Project](https://www.cancerimagingarchive.net/collection/nlst/) |  |
-| Farsiu Ophthalmology 2013 | Quantitative Classification of Eyes with and without Intermediate Age-related Macular Degeneration Using Optical Coherence Tomography | 2013.03 | Ophthalmology | [Project](https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm) | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S016164201300612X) |
-| Prostate-3T | Data From Prostate-3T | 2013.06 | TCIA Collection | [Project](https://www.cancerimagingarchive.net/collection/prostate-3t/) |  |
-| MRBrainS13 | MRBrainS13: Grand Challenge on MR Brain Image Segmentation | 2013.09 | MICCAI Challenge | [Project](https://mrbrains13.isi.uu.nl/) |  |
-| Chiu BOE 2014 | Kernel regression based segmentation of optical coherence tomography images with diabetic macular edema | 2014.01 | Biomed Opt Express | [Project](https://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm) | [Paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-6-4-1172) |
-| Srinivasan BOE 2014 | Fully automated detection of diabetic macular edema and dry age-related macular degeneration from optical coherence tomography images | 2014.03 | Biomed Opt Express | [Project](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm) | [Paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-5-10-3568) |
-| orCaScore | An evaluation of automatic coronary artery calcium scoring methods with cardiac CT using the orCaScore framework | 2014.09 | MICCAI Challenge | [Project](https://orcascore.grand-challenge.org/) | [Paper](https://aapm.onlinelibrary.wiley.com/doi/10.1118/1.4945696) |
-| CETUS2014 | CETUS: Cardiac Echocardiography Tracking and Segmentation Challenge | 2014.09 | MICCAI Challenge | [Project](https://www.creatis.insa-lyon.fr/Challenge/CETUS/index.html) |  |
-| Prostate-Diagnosis | PROSTATE-DIAGNOSIS: Multiparametric MRI for Prostate Cancer | 2015.03 | TCIA Collection | [Project](https://www.cancerimagingarchive.net/collection/prostate-diagnosis/) |  |
-| BTCV | MICCAI multi-atlas labeling beyond the cranial vault-workshop and challenge | 2015.04 | MICCAI Workshop | [Project](https://www.synapse.org/Synapse:syn3193805/challenge/) |  |
-| ISMRM2015 HARDI | ISMRM 2015 Tractography Challenge | 2015.06 | ISMRM Challenge | [Project](https://tractometer.org/ismrm2015/dwi_data) |  |
-| NEATBrainS15 | NEATBrainS15: Neonatal Brain Structure Segmentation | 2015.09 | MICCAI Challenge | [Project](https://www.isi.uu.nl/research/challenges/neatbrains/) |  |
-| PDDCA | Public Domain Database for Computational Anatomy: Head and Neck | 2015.09 | MICCAI Challenge | [Project](https://www.imagenglab.com/newsite/pddca/) |  |
-| HVSMR 2016 | HVSMR 2016: Whole Heart and Great Vessel Segmentation Challenge | 2016.07 | MICCAI Challenge | [Project](http://segchd.csail.mit.edu/data.html) | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_10#page-1) |
-| MSSEG 2016 | Objective Evaluation of Multiple Sclerosis Lesion Segmentation using a Data Management and Processing Infrastructure | 2016.10 | MICCAI Challenge/Nature | [Project](https://portal.fli-iam.irisa.fr/msseg-challenge/) | [Paper](https://www.nature.com/articles/s41598-018-31911-7) |
-| PROSTATEx | PROSTATEx: PROSTATE MR Image Dataset With Prostate Cancer Annotations | 2016.10 | SPIE-AAPM-NCI PROSTATEx Challenge | [Project](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=163875860) |  |
-| WMH | WMH Segmentation Challenge: White Matter Hyperintensity Segmentation in Brain MR | 2017.03 | MICCAI Challenge | [Project](https://wmh.isi.uu.nl/) | [Paper](https://ieeexplore.ieee.org/document/8669968) |
-| LGG-1p19qDeletion | LGG-1p19qDeletion: Low-Grade Glioma MRI with Genomic Annotations | 2017.03 | TCIA Collection | [Project](https://www.cancerimagingarchive.net/collection/lgg-1p19qdeletion/) |  |
-| PROSTATEx-2 | PROSTATEx-2: Lesion Classification Challenge | 2017.06 | AAPM Grand Challenge | [Project](https://www.aapm.org/GrandChallenge/PROSTATEx-2/) |  |
-| ACDC | Automatic Cardiac Diagnosis Challenge | 2017.09 | STACOM / MICCAI | [Project](https://www.creatis.insa-lyon.fr/Challenge/acdc/) | [Paper](https://ieeexplore.ieee.org/document/8360453) |
-| RETOUCH | RETOUCH: Retinal OCT Fluid Segmentation Challenge | 2017.09 | MICCAI Challenge | [Project](https://retouch.grand-challenge.org/Home/) | [Paper](https://doi.org/10.1016/j.media.2019.101570) |
-| ROCC | ROCC: Retinal OCT Classification Challenge | 2017.09 | MICCAI Challenge | [Project](https://rocc.grand-challenge.org/) |  |
-| iSeg2017 | iSeg-2017: Infant Brain MRI Segmentation Challenge | 2017.09 | MICCAI Challenge | [Project](https://iseg2017.web.unc.edu/) | [Paper](https://iseg2017.web.unc.edu/wp-content/uploads/sites/14056/2019/02/Benchmark-on-Automatic-6-month-old-Infant-Brain-Segmentation-Algorithms.pdf) |
-| DeepLesion | DeepLesion: automated mining of large-scale lesion annotations and universal lesion detection in CT | 2017.10 | JMI / arXiv | [Project](https://nihcc.app.box.com/v/DeepLesion) | [Paper](https://arxiv.org/abs/1710.01766) |
-| LUNA 16 | Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: the LUNA 16 challenge | 2017.12 | Medical Image Analysis | [Project](https://luna16.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841517301020) |
-| Mandibular-CT-Dataset | Mandibular CT Dataset Collection for 3D Reconstruction and Segmentation | 2018.03 | figshare | [Project](https://figshare.com/articles/dataset/Mandibular_CT_Dataset_Collection/6167726) | [Paper](https://arxiv.org/pdf/1902.05255) |
-| FUMPE | Computer-aided detection of pulmonary embolism in CT | 2018.03 | arXiv / Kaggle | [Project](https://www.kaggle.com/andrewmvd/pulmonary-embolism-in-ct-images) |  |
-| ISLES 2018 | ISLES 2018 – Ischemic Stroke Lesion Segmentation | 2018.09 | MICCAI Challenge | [Project](http://www.isles-challenge.org/ISLES2018/) | [Paper](https://www.sci-hub.ru/10.1177/0271678X15610586) |
-| MRBrainS18 | MRBrainS18: MR Brain Segmentation Challenge 2018 | 2018.09 | MICCAI Challenge | [Project](https://mrbrains18.isi.uu.nl/data/) |  |
-| Atrial Segmentation Challenge | 2018 Atrial Segmentation Challenge | 2018.09 | MICCAI Challenge | [Project](https://www.cardiacatlas.org/atriaseg2018-challenge/) |  |
-| IVDM3Seg | IVDM3Seg: Intervertebral Disc and Vertebrae Segmentation Challenge | 2018.09 | MICCAI Challenge | [Project](https://ivdm3seg.weebly.com/) |  |
-| MRNet | MRNet: Knee MRI Dataset for Abnormality Detection | 2018.09 | NIPS Workshop | [Project](https://stanfordmlgroup.github.io/competitions/mrnet/) |  |
-| OCT Glaucoma Detection | Glaucoma Detection in 3D Spectral-Domain OCT | 2018.10 | Sci Rep | [Project](https://doi.org/10.5281/zenodo.1481223) |  |
-| BraTS | Brain Tumor Segmentation (BraTS) Challenge | 2018.11 | MICCAI Challenge (series) | [Project](https://www.med.upenn.edu/cbica/brats/) | [Paper](https://arxiv.org/abs/1811.02629) |
-| fastMRI | fastMRI: A Publicly Available Raw k-Space and DICOM Dataset of Knee and Brain MR Images | 2018.11 | MRM | [Project](https://fastmri.med.nyu.edu/) | [Paper](https://arxiv.org/abs/1811.08839) |
-| LiTS | Liver Tumor Segmentation (LiTS) Challenge | 2019.01 | MICCAI Challenge | [Project](https://competitions.codalab.org/competitions/17094) | [Paper](https://arxiv.org/abs/1901.04056) |
-| OASIS-3 | OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease | 2019.01 | Sci Data | [Project](https://www.oasis-brains.org/) | [Paper](https://www.medrxiv.org/content/10.1101/2019.12.13.19014902v1) |
-| MM-WHS | MM-WHS: Multi-Modality Whole Heart Segmentation | 2019.02 | MICCAI Challenge | [Project](https://zmiclab.github.io/zxh/0/mmwhs/) | [Paper](https://arxiv.org/abs/1902.07880) |
-| CHAOS CT-MRI | CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation | 2019.02 | ISBI Challenge | [Project](https://chaos.grand-challenge.org/) | [Paper](https://chaos.grand-challenge.org/Publications/) |
-| KiTS19 | KiTS19: Kidney Tumor Segmentation Challenge | 2019.04 | MICCAI Challenge | [Project](https://kits19.grand-challenge.org/) | [Paper](https://arxiv.org/abs/1904.00445) |
-| AAPM-RT-MAC | AAPM RT-MAC: MR-only based Radiotherapy in Head and Neck | 2019.07 | AAPM Challenge | [Project](https://www.cancerimagingarchive.net/collection/aapm-rt-mac/) | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC7322982/) |
-| iSeg-2019 | iSeg-2019: Infant Brain MRI Segmentation Challenge | 2019.09 | MICCAI Challenge | [Project](https://iseg2019.web.unc.edu/) | [Paper](https://iseg2019.web.unc.edu/) |
-| SegTHOR | SegTHOR: Segmentation of thoracic organs at risk in CT images | 2019.09 | Physica Medica | [Project](https://competitions.codalab.org/competitions/21145) | [Paper](https://arxiv.org/abs/1912.05950) |
-| VerSe20 | VerSe 2020: Vertebral Segmentation Challenge at MICCAI | 2020.01 | MICCAI Challenge | [Project](https://verse2020.grand-challenge.org/) |  |
-| VerSe19 | VerSe 2019: Vertebral Segmentation Challenge at MICCAI | 2020.01 | MICCAI Challenge | [Project](https://verse2019.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2001.09193) |
-| COVID-19-CT-Seg | COVID-19 CT lung and infection segmentation dataset | 2020.04 | zenodo | [Project](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark) |  |
-| M&Ms | M&Ms: Multi-Centre, Multi-Vendor & Multi-Disease Cardiac MR Segmentation Challenge | 2020.05 | MICCAI Challenge | [Project](https://www.ub.edu/mnms/) |  |
-| CTPelvic1K | CTPelvic1K: A Large-Scale Pelvic CT Dataset for Multi-Task Parsing | 2020.06 | arXiv | [Project](https://github.com/MIRACLE-Center/CTPelvic1K) | [Paper](https://pubmed.ncbi.nlm.nih.gov/33864189/) |
-| Prostate MR Segmentation Dataset (SAML) | Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space | 2020.09 | MICCAI | [Project](https://liuquande.github.io/SAML/) |  |
-| EMIDEC | EMIDEC 2020: Myocardial Infarction Detection, Segmentation and Classification | 2020.09 | MICCAI Challenge | [Project](https://emidec.com/) | [Paper](https://emidec.com/) |
-| KNOAP2020 | KNOAP2020: Knee Osteoarthritis Progression Prediction Challenge | 2020.09 | MICCAI Challenge | [Project](https://knoap2020.grand-challenge.org/Home/) |  |
-| Learn2Reg Lung CT | Learn2Reg 2020: Lung CT Registration | 2020.09 | MICCAI Challenge | [Project](https://learn2reg.grand-challenge.org/) |  |
-| Learn2Reg Abdomen CT-CT | Learn2Reg 2020: Abdominal CT-CT Registration | 2020.09 | MICCAI Challenge | [Project](https://learn2reg.grand-challenge.org/) |  |
-| RibFrac2020 | RibFrac: Rib Fracture Detection and Classification Challenge | 2020.10 | MICCAI Challenge | [Project](https://ribfrac.grand-challenge.org/) |  |
-| HECKTOR 2020 | HECKTOR 2020: Segmentation of Head and Neck Tumor in PET/CT | 2020.11 | MICCAI Challenge | [Project](https://www.aicrowd.com/challenges/miccai-2020-hecktor) |  |
-| CT-ORG | CT-ORG, a new dataset for multiple organ segmentation in computed tomography | 2020.11 | Nature | [Project](https://springernature.figshare.com/articles/dataset/Metadata_record_for_CT-ORG_a_dataset_for_multiple_organ_segmentation_in_computed_tomography/13055663) | [Paper](https://www.nature.com/articles/s41597-020-00715-8) |
-| RAD-ChestCT | Machine-Learning-Based Multiple Abnormality Prediction with Large-Scale Chest Computed Tomography Volumes | 2021.01 | Medical Image Analysis | [Project](https://zenodo.org/records/6406114) | [Paper](https://arxiv.org/abs/2002.04752) |
-| Eye OCT Datasets (3D) | 3D Retinal OCT Classification and Segmentation Dataset | 2021.01 | Tianchi | [Project](https://tianchi.aliyun.com/dataset/dataDetail?dataId=90672) |  |
-| HECKTOR 2021 | HECKTOR 2021: Head and Neck Tumor Segmentation and Outcome Prediction | 2021.05 | MICCAI Challenge | [Project](https://www.aicrowd.com/challenges/miccai-2021-hecktor) |  |
-| CTSpine1K | CTSpine1K: A Large-Scale Dataset for Spine Parsing in CT | 2021.07 | arXiv | [Project](https://github.com/MIRACLE-Center/CTSpine1K) |  |
-| MSSEG-2 | MSSEG-2 challenge: Multiple Sclerosis Lesion Segmentation at 7T and 3T MRI | 2021.07 | NeuroImage Clin | [Project](https://portal.fli-iam.irisa.fr/msseg-2/data/) |  |
-| FLARE21 | FLARE 2021: A Challenge on Abdominal Multi-organ Segmentation | 2021.09 | MICCAI Challenge | [Project](https://flare.grand-challenge.org/FLARE21/) |  |
-| QUBIQ2021 3D CT | QUBIQ 2021: Quantification of Uncertainty in Biomedical Image Quantification | 2021.09 | MICCAI Challenge | [Project](https://qubiq21.grand-challenge.org/QUBIQ2021/) |  |
-| M&Ms-2 | M&Ms-2: Multi-Domain Cardiac MR Segmentation | 2021.09 | MICCAI Challenge | [Project](https://www.ub.edu/mnms-2/) |  |
-| Learn2Reg Abdomen MR-CT | Learn2Reg 2021: Abdominal MR-CT Multi-Modal Registration | 2021.09 | MICCAI Challenge | [Project](https://learn2reg.grand-challenge.org/) |  |
-| CrossMoDA2021 | CrossMoDA 2021: Unsupervised Domain Adaptation for Cross-Modality Vestibular Schwannoma Segmentation | 2021.09 | MICCAI Challenge | [Project](https://crossmoda.grand-challenge.org/CrossMoDA/) |  |
-| WORD | WORD: A Whole-Organ CT Dataset for Robust Multi-Organ Segmentation | 2021.10 | arXiv | [Project](https://github.com/HiLab-git/WORD) | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841522002705) |
-| MedMNIST v2 | MedMNIST v2 -- A large-scale lightweight benchmark for 2D and 3D biomedical image classification | 2021.10 | Nature | [Project](https://medmnist.com/) | [Paper](https://arxiv.org/abs/2110.14795) |
-| CADA | CADA: Cerebral Aneurysm Detection and Analysis Challenge | 2022.04 | MICCAI Challenge | [Project](https://cada.grand-challenge.org/) |  |
-| CADA-AS | CADA-AS: Aneurysm Segmentation Challenge | 2022.04 | MICCAI Challenge | [Project](https://cada-as.grand-challenge.org/) |  |
-| CADA-RRE | CADA-RRE: Rupture Risk Estimation for Cerebral Aneurysms | 2022.04 | MICCAI Challenge | [Project](https://cada-rre.grand-challenge.org/) |  |
-| TotalSegmentator | TotalSegmentator: robust segmentation of 104 anatomic structures in CT images | 2022.06 | arXiv | [Project](https://totalsegmentator.com/) | [Paper](https://arxiv.org/abs/2208.05868) |
-| AMOS | AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation | 2022.06 | NeurIPS 2022 | [Project](https://amos22.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2206.08023) |
-| MSD | The medical segmentation decathlon | 2022.07 | Nature Communications | [Project](http://medicaldecathlon.com/) | [Paper](https://doi.org/10.1038/s41467-022-30695-9) |
-| AutoPET | The AutoPET Challenge: Automated Lesion Segmentation in Whole-Body FDG-PET/CT | 2022.07 | MICCAI Challenge (autoPET2022) | [Project](https://autopet.grand-challenge.org/) |  |
-| UPENN-GBM | UPENN-GBM: Multi-modal MRI Dataset for Glioblastoma Segmentation | 2022.07 | TCIA Collection | [Project](https://www.cancerimagingarchive.net/collection/upenn-gbm/) |  |
-| KiPA22 | KiPA22: Kidney PArametric segmentation in contrast-enhanced CT | 2022.08 | MICCAI Challenge | [Project](https://kipa22.grand-challenge.org/) |  |
-| OLIVES | OLIVES: A 3D OCT Dataset for Longitudinal Retinal Imaging | 2022.09 | arXiv | [Project](https://github.com/olivesgatech/OLIVES_Dataset) |  |
-| PI-CAI | PI-CAI: Prostate Imaging–Cancer AI Challenge | 2022.09 | MICCAI Challenge | [Project](https://pi-cai.grand-challenge.org/PI-CAI/) |  |
-| LAScarQS 2022 | LAScarQS 2022: Left Atrial Scar Quantification and Segmentation Challenge | 2022.09 | MICCAI Challenge | [Project](https://zmiclab.github.io/projects/lascarqs22/) |  |
-| CrossMoDA2022 | CrossMoDA 2022: Domain Adaptation for Vestibular Schwannoma Segmentation and Koos Grading | 2022.09 | MICCAI Challenge | [Project](https://crossmoda2022.grand-challenge.org/crossmoda2022/) |  |
-| FeTA 2022 | FeTA 2022: Fetal Brain Tissue Segmentation at MICCAI | 2022.09 | MICCAI Challenge | [Project](https://feta.grand-challenge.org/feta-2022/) |  |
-| COSMOS 2022 | COSMOS 2022: Carotid Artery Vessel Wall Segmentation | 2022.09 | MICCAI Challenge | [Project](https://vessel-wall-segmentation-2022.grand-challenge.org/) |  |
-| cSeg-2022 | cSeg 2022: Cerebellum Segmentation Challenge | 2022.09 | MICCAI Challenge | [Project](https://tarheels.live/cseg2022/) |  |
-| ISLES 2022 | ISLES 2022 – Acute and Subacute Ischemic Stroke Lesion Segmentation | 2022.09 | MICCAI Challenge | [Project](https://isles22.grand-challenge.org/) |  |
-| InSTANCE2022 | InSTANCE 2022: Intracranial Hemorrhage Segmentation Challenge | 2022.09 | MICCAI Challenge | [Project](https://instance.grand-challenge.org/Instance2022/) | [Paper](https://arxiv.org/abs/2301.03281) |
-| Learn2Reg NLST | Learn2Reg 2022: Thoracic CT Registration with NLST | 2022.09 | MICCAI Challenge | [Project](https://learn2reg.grand-challenge.org/) |  |
-| Shifts Challenge 2022 | Shifts 2022: Distribution Shifts in Multiple Sclerosis Lesion Segmentation | 2022.09 | MICCAI Challenge | [Project](https://shifts.grand-challenge.org/) | [Paper](https://shifts.grand-challenge.org/) |
-| HECKTOR 22 | Overview of the HECKTOR challenge at MICCAI 2022: automatic head and neck tumor segmentation and outcome prediction in PET/CT | 2023 | MICCAI 2022 | [Project](https://hecktor.grand-challenge.org/) | [Paper](https://pubmed.ncbi.nlm.nih.gov/37195050/) |
-| LNDb | LNDb challenge on automatic lung cancer patient management | 2023.03 | Medical Image Analysis | [Project](https://lndb.grand-challenge.org/) | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-27420-6_1) |
-| Semi-TeethSeg | Semi-TeethSeg: Semi-Supervised 3D Tooth Segmentation in CBCT/CT | 2023.04 | arXiv | [Project](https://zenodo.org/record/7840021) |  |
-| PARSE22 | Efficient automatic segmentation for multi-level pulmonary arteries: The parse challenge | 2023.04 | arXiv | [Project](https://parse2022.grand-challenge.org/Parse2022/) | [Paper](https://arxiv.org/abs/2304.03708) |
-| STAGE | STAGE: Longitudinal OCT Dataset for Glaucoma Progression | 2023.04 | Dataset | [Project](https://doi.org/10.5281/zenodo.7835341) |  |
-| KiTS21 | The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct | 2023.07 | arXiv | [Project](https://kits21.kits-challenge.org/) | [Paper](https://arxiv.org/abs/2307.01984) |
-| AutoPET II | AutoPET-II: Ensemble-based Uncertainty-Aware Lesion Segmentation in Multi-Center FDG-PET/CT | 2023.07 | MICCAI Challenge (AutoPET-II) | [Project](https://autopet-ii.grand-challenge.org/) |  |
-| MedMD | Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data | 2023.08 | arXiv | [Project](https://radiopaedia.org/) | [Paper](https://arxiv.org/abs/2308.02463) |
-| ULS23 | ULS23 Challenge: Universal Lesion Segmentation in CT for Oncological Imaging | 2023.08 | MICCAI Challenge | [Project](https://uls23.grand-challenge.org/uls23/) |  |
-| SegRap2023 | SegRap 2023: Nasopharyngeal Carcinoma Radiotherapy Segmentation Challenge | 2023.08 | MICCAI Challenge | [Project](https://segrap2023.grand-challenge.org/) |  |
-| LNQ2023 | LNQ2023: Lymph Node Quantification in Chest CT | 2023.08 | MICCAI Challenge | [Project](https://lnq2023.grand-challenge.org/) |  |
-| FLARE23 | FLARE 2023: A Federated Learning Challenge for Abdominal Multi-Organ Segmentation | 2023.09 | MICCAI Challenge | [Project](https://codalab.lisn.upsaclay.fr/competitions/12239) |  |
-| CrossMoDA2023 | CrossMoDA 2023: Multi-Center Domain Adaptation for VS Segmentation | 2023.09 | MICCAI Challenge | [Project](https://crossmoda-challenge.ml/) |  |
-| ATLAS2023 | ATLAS 2023: Liver Tumor Segmentation Challenge | 2023.09 | MICCAI Challenge | [Project](https://atlas-challenge.u-bourgogne.fr/) | [Paper](https://www.mdpi.com/2306-5729/8/5/79) |
-| SMILE-UHURA2023 | SMILE-UHURA 2023: Small Vessel Disease Lesion Segmentation | 2023.09 | MICCAI Challenge | [Project](https://www.synapse.org/#!Synapse:syn47164761/wiki/620033) | [Paper](https://arxiv.org/abs/2411.09593) |
-| CAS2023 | CAS 2023: Brain Structure Segmentation Benchmark | 2023.09 | MICCAI Challenge | [Project](https://codalab.lisn.upsaclay.fr/competitions/9804) |  |
-| CROWN2023 | CROWN 2023: White Matter Hyperintensity and Other Pathology Classification | 2023.09 | MICCAI Challenge | [Project](https://crown.isi.uu.nl/) |  |
-| SLCN | SLCN: Structural Lesion and Connectivity in Neurodevelopmental Disorders | 2023.09 | MICCAI Challenge | [Project](https://slcn.grand-challenge.org/) |  |
-| ToothFairy2023 | ToothFairy: 3D CBCT Dataset for Inferior Alveolar Nerve Segmentation | 2023.09 | MICCAI Challenge | [Project](https://toothfairy.grand-challenge.org/toothfairy/) |  |
-| XPRESS2023 | XPRESS 2023: X-ray Phase-Contrast CT Neuroanatomy Segmentation | 2023.09 | MICCAI Challenge | [Project](https://xpress.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2302.03819) |
-| Learn2Reg ThoraxCBCT | Learn2Reg 2023: Thorax CBCT/FBCT Deformable Registration | 2023.09 | MICCAI Challenge | [Project](https://learn2reg.grand-challenge.org/) |  |
-| TDSC-ABUS2023 | TDSC-ABUS2023: Automated Breast Ultrasound Segmentation Challenge | 2023.09 | MICCAI Challenge | [Project](https://tdsc-abus2023.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2501.15588) |
-| MVSeg-3DTEE2023 | MVSeg-3DTEE2023: Mitral Valve Segmentation from 3D TEE | 2023.09 | MICCAI Challenge | [Project](https://www.synapse.org/#!Synapse:syn51186045/wiki/621356) |  |
-| RegPro2023 | RegPro 2023: Prostate MR-US Registration Challenge | 2023.09 | MICCAI Challenge | [Project](https://muregpro.github.io/) |  |
-| KiTS23 | KiTS23: Kidney and Kidney Tumor Segmentation with Comprehensive Clinical Annotations | 2023.10 | arXiv | [Project](https://kits-challenge.org/kits23/) |  |
-| WBMR-NF | WBMR-NF: Whole-Body MRI for Neurofibromatosis | 2023.11 | Dataset | [Project](https://mgh-3dqi.github.io/) |  |
-| GAMMA | GAMMA Challenge: Glaucoma Assessment with Multi-Modality Data | 2023.12 | MICCAI Challenge | [Project](https://gamma.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523001986) |
-| ATM'22 | ATM'22: Airway Tree Modeling in Thoracic CT | 2023.12 | MICCAI Challenge | [Project](https://atm22.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523002177) |
-| INSPECT | INSPECT: A Multimodal Dataset for Pulmonary Embolism Diagnosis and Prognosis | 2023.12 | NeurIPS 2023 | [Project](http://www.isles-challenge.org/) | [Paper](https://arxiv.org/abs/2311.10798) |
-| HaN-Seg | HaN-Seg 2023: Head and Neck Organ at Risk Segmentation Challenge | 2024 | MICCAI Challenge | [Project](https://han-seg2023.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/pii/S0167814024006807) |
-| VALDO | Where is VALDO? Vascular Lesions Detection and Segmentation Challenge | 2024.01 | MICCAI Challenge | [Project](https://valdo.grand-challenge.org/) | [Paper](https://www.sciencedirect.com/science/article/pii/S136184152300289X) |
-| BIMCV-R | BIMCV-R: Large-Scale Thoracic CT Reconstruction Benchmark | 2024.01 | MICCAI24 | [Project](https://huggingface.co/datasets/cyd0806/BIMCV-R) | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72120-5_12) |
-| IXI | Information eXtraction from Images (IXI) Dataset | 2024.01 | Dataset | [Project](http://brain-development.org/ixi-dataset/) |  |
-| RAOS | RAOS: A Large-Scale Radiotherapy Abdominal Organ Segmentation Dataset | 2024.01 | MICCAI24 | [Project](https://github.com/Luoxd1996/RAOS) | [Paper](https://arxiv.org/abs/2406.13674) |
-| ISLES 2024 | Ischemic Stroke Lesion Segmentation Challenge 2024 (ISLES 2024) | 2024.02 | MICCAI Challenge | [Project](https://www.isles-challenge.org/) |  |
-| AbdomenAtlas | AbdomenAtlas-20K: A Large-Scale Benchmark for Abdominal Multi-Organ Segmentation in CT | 2024.02 | arXiv | [Project](https://www.zongweiz.com/dataset) | [Paper](https://arxiv.org/abs/2407.16697) |
-| OpenMind | OpenMind: Large-Scale Head-and-Neck MR Dataset for Foundation Models | 2024.02 | arXiv | [Project](https://huggingface.co/datasets/AnonRes/OpenMind) |  |
-| TriALS2024 | TriALS 2024: Liver Tumor Segmentation and Outcome Prediction – Task 1 | 2024.03 | MICCAI24 | [Project](https://github.com/xmed-lab/TriALS) |  |
-| LAScarQS++ 2024 | LAScarQS++ 2024: Multi-Center Atrial Scar Segmentation | 2024.03 | CARE Workshop (MICCAI) | [Project](https://www.zmic.org.cn/care_2024/track2/) |  |
-| MyoPS | MyoPS: A Benchmark of Myocardial Pathology Segmentation Combining Three-Sequence Cardiac Magnetic Resonance Images# MyoPS: A Benchmark of Myocardial Pathology Segmentation Combining Three-Sequence Cardiac Magnetic Resonance Images | 2024.03 | CARE Workshop | [Project](https://www.zmic.org.cn/care_2024/track4/) | [Paper](https://arxiv.org/abs/2201.03186) |
-| WHS++ 2024 | WHS++ 2024: Multi-Center Whole Heart Segmentation | 2024.03 | CARE Workshop | [Project](https://www.zmic.org.cn/care_2024/track5/) |  |
-| AMOS-MM | AMOS-MM: Multi-Phase Abdominal CT Benchmark for Translation and Synthesis | 2024.03 | arXiv | [Project](https://zenodo.org/records/10992155) | [Paper](https://doi.org/10.5281/zenodo.10992155) |
-| CT2Rep | CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging | 2024.03 | MICCAI 2024 | [Project](https://github.com/ibrahimethemhamamci/CT2Rep) | [Paper](https://arxiv.org/abs/2403.06801) |
-| TotalSegmentator MRI | TotalSegmentator MRI: Whole-body MRI Segmentation of 150 Structures | 2024.04 | arXiv | [Project](https://zenodo.org/doi/10.5281/zenodo.11367004) | [Paper](https://arxiv.org/abs/2405.19492) |
-| RadGenome-ChestCT | RadGenome-Chest CT: a grounded vision-language dataset for chest CT analysis | 2024.04 | arXiv | [Project](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) | [Paper](https://doi.org/10.48550/arXiv.2404.16754) |
-| M3D | M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models | 2024.04 | ICLR 2025 | [Project](https://github.com/BAAI-DCAI/M3D) | [Paper](https://arxiv.org/abs/2404.00578) |
-| AIIB23 | AIIB23: Airway Inflammation Imaging Biomarkers Challenge | 2024.06 | MICCAI Challenge | [Project](https://codalab.lisn.upsaclay.fr/competitions/13238) | [Paper](https://doi.org/10.1016/j.media.2024.103253) |
-| CT-3DRRG | Argus: Benchmarking and Enhancing Vision-Language Models for 3D Radiology Report Generation | 2024.06 | arXiv | — | [Paper](https://arxiv.org/abs/2406.07146) |
-| RadGenome-Brain MRI | AutoRG-Brain: Grounded Report Generation for Brain MRI | 2024.10 | MICCAI 2024 | [Project](https://github.com/ljy19970415/AutoRG-Brain) | [Paper](https://arxiv.org/abs/2407.16684) |
-| MedShapeNet | MedShapeNet -- A Large-Scale Dataset of 3D Medical Shapes for Computer Vision | 2024.12 | Biomedizinische Technik | [Project](https://medshapenet.ikim.nrw/) | [Paper](https://arxiv.org/abs/2308.16139) |
-| RadA-BenchPlat | How well can modern LLMs act as agent cores in radiology environments? | 2024.12 | arXiv |  | [Paper](https://arxiv.org/abs/2412.09529) |
-| MedVL-CT69K | Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding | 2025.01 | ICLR 2025 | [Project](https://github.com/alibaba-damo-academy/fvlm) | [Paper](https://arxiv.org/abs/2501.14548) |
-| Triad | Triad: Vision Foundation Model for 3D Magnetic Resonance Imaging | 2025.02 | arXiv |  | [Paper](https://arxiv.org/abs/2502.14064) |
-| 3D-BrainCT | Towards a holistic framework for multimodal LLM in 3D brain CT radiology report generation | 2025.03 | Nat. Commun. | — | [Paper](https://www.nature.com/articles/s41467-025-57426-0) |
-| PENGWIN2024-Task1 | PENGWIN 2024: Pelvic Fracture Segmentation in Trauma CT | 2025.04 | MICCAI Challenge | [Project](https://pengwin.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2504.02382) |
-| RibFrac | Deep rib fracture instance segmentation and classification from ct on the ribfrac challenge | 2025.04 | IEEE | [Project](https://ribfrac.grand-challenge.org/) | [Paper](https://arxiv.org/abs/2402.09372) |
-| DeepTumorVQA | Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering | 2025.05 | NeurIPS 2025 | [Project](https://github.com/Schuture/DeepTumorVQA) | [Paper](https://arxiv.org/abs/2505.18915) |
-| NOVA | NOVA: A Benchmark for Anomaly Localization and Clinical Reasoning in Brain MRI | 2025.05 | NeurIPS 2025 |  | [Paper](https://arxiv.org/abs/2505.14064) |
-| Lingshu | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | 2025.06 | arXiv | [Project](https://alibaba-damo-academy.github.io/lingshu/) | [Paper](https://arxiv.org/abs/2506.07044) |
-| ReXGroundingCT | ReXGroundingCT: A 3D Chest CT Dataset for Segmentation of Findings from Free-Text Reports | 2025.07 | arXiv | [Project](https://huggingface.co/datasets/rajpurkarlab/ReXGroundingCT) | [Paper](https://arxiv.org/abs/2507.22030) |
-| ViPET-ReportGen | Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation | 2025.12 | NeurIPS 2025 | [Project](https://github.com/AIoT-Lab-AI4LIFE/ViPET-ReportGen) | [Paper](https://arxiv.org/abs/2509.24739) |
-| 3D-RAD | 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks | 2025.12 | NeurIPS 2025 | [Project](https://github.com/Tang-xiaoxiao/3D-RAD) | [Paper](https://arxiv.org/abs/2506.11147) |
-| MR-RATE | MR-RATE: A Vision-Language Foundation Model and Dataset for Magnetic Resonance Imaging | 2026 | — | [Project](https://github.com/forithmus/MR-RATE) | — |
-| CT-RATE | Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography | 2026.02 | Nature | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) | [Paper](https://arxiv.org/abs/2403.17834) |
-| CT-FlowBench | CT-FlowBench: Benchmark for CT interpretation workflow and tool-use | 2026.03 | arXiv |  | [Paper](https://arxiv.org/abs/2603.00123) |
-| Merlin | Merlin: A Vision Language Foundation Model for 3D Computed Tomography | 2026.03 | Nature | [Project](https://github.com/StanfordMIMI/Merlin) | [Paper](https://www.nature.com/articles/s41586-026-10181-8) |
-| Gastric-X | Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis | 2026.03 | CVIPPR 2026 | — | [Paper](https://arxiv.org/abs/2603.19516) |
-| SpatialMed | Beyond Medical Diagnostics: How Medical Multimodal Large Language Models Think in Space | 2026.03 | arXiv |  | [Paper](https://arxiv.org/abs/2603.13800) |
-| BONBID-HIE2023 | BONBID-HIE 2023: Neonatal Hypoxic-Ischemic Encephalopathy Lesion Segmentation | 2026.04 | MICCAI Challenge | [Project](https://bonbid-hie2023.grand-challenge.org/bonbid-hie2023/) | [Paper](https://pubmed.ncbi.nlm.nih.gov/41379890/) |
-| SGMRI-VQA | Beyond a Single Frame: Multi-Frame Spatially Grounded Reasoning Across Volumetric MRI | 2026.04 | arXiv |  | [Paper](https://arxiv.org/abs/2604.15808) |
-| Curia-2 | Curia-2: Scaling Self-Supervised Learning for Radiology Foundation Models | 2026.04 | arXiv |  | [Paper](https://arxiv.org/abs/2604.01987) |
-| CT-SpatialVQA | Lost in Volume: The CT-SpatialVQA Benchmark for Evaluating Semantic-Spatial Understanding of 3D Medical Vision-Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.08787) |
-| Med-StepBench | Med-StepBench: A Hierarchical Reasoning Framework for Evaluating Hallucinations in Medical Vision-Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.10002) |
-| DeepTumorVQA-H | DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented Agents | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.09679) |
-| ABRA | ABRA: Agent Benchmark for Radiology Applications | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.11224) |
-| RadSaFE-200 | Safety and Accuracy Follow Different Scaling Laws in Clinical Large Language Models | 2026.05 | arXiv |  | [Paper](https://arxiv.org/abs/2605.04039) |
-| Oncology VQA Benchmark | Automated Report-Derived Oncology VQA Benchmark for Evaluating Vision-Language Models on 3D Medical Imaging | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.02809) |
-| Abdomen-NCCT Benchmark | A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.16991) |
-| RadOT-Eval | RadOT-Eval: Auditable Structured-Evidence Transport for Radiology Report Evaluation | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.08769) |
-| ReportQA | ReportQA: QA-Based Radiology Report Evaluation | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.15037) |
-| CORTEX | CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.27264) |
-| MedCTA | MedCTA: A Benchmark for Clinical Tool Agents | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.11702) |
-| Lung CT FM Benchmark | Foundation Models vs. Radiomics for Lung Computed Tomography: A Benchmark of Feature Extractors, Classification Heads, and Segmentation Choices | 2026.07 | arXiv | [Project](https://github.com/AI4HealthUOL/lung-ct-benchmarking) | [Paper](https://arxiv.org/abs/2607.01001) |
-| Brain Oncology 3D MRI-Text | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | 2026.07 | arXiv | - | [Paper](https://arxiv.org/abs/2607.14581) |
-| COBRA2026 | COBRA2026: a large-scale multicenter pelvic cone-beam computed tomography projection dataset | 2026.07 | arXiv | [Project](https://doi.org/10.5281/zenodo.21322350) | [Paper](https://arxiv.org/abs/2607.20037) |
-| GLI-AL | GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels | 2026.07 | arXiv | [Project](https://www.synapse.org/Synapse:syn75210889/wiki/) | [Paper](https://arxiv.org/abs/2607.22135) |
+| SLIVER07 | Segmentation in the liver 2007 (SLIVER07) challenge | 2007.09 | MICCAI Workshop | [Paper](https://ieeexplore.ieee.org/abstract/document/4781564) | [Project](https://sliver07.grand-challenge.org/) |
+| SKI10 | Segmentation of Knee Images 2010 (SKI10) | 2010.09 | MICCAI Challenge | [Paper](https://www.researchgate.net/publication/266213062_Segmentation_of_Knee_Images_A_Grand_Challenge) | [Project](https://ski10.grand-challenge.org/Home/) |
+| LIDC-IDRI | Data From LIDC-IDRI: The Lung Image Database Consortium and Image Database Resource Initiative | 2011.06 | Med Phys | [Paper](https://doi.org/10.1118/1.3528204) | [Project](https://www.cancerimagingarchive.net/collection/lidc-idri/) |
+| LOLA11 | LOLA11: LObe and Lung Analysis 2011 Challenge | 2011.09 | MICCAI Workshop |  | [Project](https://lola11.grand-challenge.org/) |
+| STACOM 2011 Motion Tracking | STACOM 2011: Cardiac Motion Tracking Challenge | 2011.09 | MICCAI Workshop | [Paper](https://link.springer.com/chapter/10.1007/978-3-642-28326-0_4) | [Project](https://www.cardiacatlas.org/motion-tracking-2011-challenge/) |
+| Mindboggle-101 | Mindboggle-101: Evaluating Brain Image Labeling Methods | 2012.09 | NeuroImage | [Paper](https://www.sci-hub.ru/10.3389/fnins.2012.00171/full) | [Project](https://mindboggle.info/data.html) |
+| PROMISE12 | PROMISE12: Prostate MR Image Segmentation 2012 Challenge | 2012.10 | MICCAI Challenge | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841513001734) | [Project](https://promise12.grand-challenge.org/) |
+| NLST | The National Lung Screening Trial: overview and study design | 2013.01 | Radiology |  | [Project](https://www.cancerimagingarchive.net/collection/nlst/) |
+| Farsiu Ophthalmology 2013 | Quantitative Classification of Eyes with and without Intermediate Age-related Macular Degeneration Using Optical Coherence Tomography | 2013.03 | Ophthalmology | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S016164201300612X) | [Project](https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm) |
+| Prostate-3T | Data From Prostate-3T | 2013.06 | TCIA Collection |  | [Project](https://www.cancerimagingarchive.net/collection/prostate-3t/) |
+| MRBrainS13 | MRBrainS13: Grand Challenge on MR Brain Image Segmentation | 2013.09 | MICCAI Challenge |  | [Project](https://mrbrains13.isi.uu.nl/) |
+| Chiu BOE 2014 | Kernel regression based segmentation of optical coherence tomography images with diabetic macular edema | 2014.01 | Biomed Opt Express | [Paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-6-4-1172) | [Project](https://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm) |
+| Srinivasan BOE 2014 | Fully automated detection of diabetic macular edema and dry age-related macular degeneration from optical coherence tomography images | 2014.03 | Biomed Opt Express | [Paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-5-10-3568) | [Project](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm) |
+| orCaScore | An evaluation of automatic coronary artery calcium scoring methods with cardiac CT using the orCaScore framework | 2014.09 | MICCAI Challenge | [Paper](https://aapm.onlinelibrary.wiley.com/doi/10.1118/1.4945696) | [Project](https://orcascore.grand-challenge.org/) |
+| CETUS2014 | CETUS: Cardiac Echocardiography Tracking and Segmentation Challenge | 2014.09 | MICCAI Challenge |  | [Project](https://www.creatis.insa-lyon.fr/Challenge/CETUS/index.html) |
+| Prostate-Diagnosis | PROSTATE-DIAGNOSIS: Multiparametric MRI for Prostate Cancer | 2015.03 | TCIA Collection |  | [Project](https://www.cancerimagingarchive.net/collection/prostate-diagnosis/) |
+| BTCV | MICCAI multi-atlas labeling beyond the cranial vault-workshop and challenge | 2015.04 | MICCAI Workshop |  | [Project](https://www.synapse.org/Synapse:syn3193805/challenge/) |
+| ISMRM2015 HARDI | ISMRM 2015 Tractography Challenge | 2015.06 | ISMRM Challenge |  | [Project](https://tractometer.org/ismrm2015/dwi_data) |
+| NEATBrainS15 | NEATBrainS15: Neonatal Brain Structure Segmentation | 2015.09 | MICCAI Challenge |  | [Project](https://www.isi.uu.nl/research/challenges/neatbrains/) |
+| PDDCA | Public Domain Database for Computational Anatomy: Head and Neck | 2015.09 | MICCAI Challenge |  | [Project](https://www.imagenglab.com/newsite/pddca/) |
+| HVSMR 2016 | HVSMR 2016: Whole Heart and Great Vessel Segmentation Challenge | 2016.07 | MICCAI Challenge | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_10#page-1) | [Project](http://segchd.csail.mit.edu/data.html) |
+| MSSEG 2016 | Objective Evaluation of Multiple Sclerosis Lesion Segmentation using a Data Management and Processing Infrastructure | 2016.10 | MICCAI Challenge/Nature | [Paper](https://www.nature.com/articles/s41598-018-31911-7) | [Project](https://portal.fli-iam.irisa.fr/msseg-challenge/) |
+| PROSTATEx | PROSTATEx: PROSTATE MR Image Dataset With Prostate Cancer Annotations | 2016.10 | SPIE-AAPM-NCI PROSTATEx Challenge |  | [Project](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=163875860) |
+| WMH | WMH Segmentation Challenge: White Matter Hyperintensity Segmentation in Brain MR | 2017.03 | MICCAI Challenge | [Paper](https://ieeexplore.ieee.org/document/8669968) | [Project](https://wmh.isi.uu.nl/) |
+| LGG-1p19qDeletion | LGG-1p19qDeletion: Low-Grade Glioma MRI with Genomic Annotations | 2017.03 | TCIA Collection |  | [Project](https://www.cancerimagingarchive.net/collection/lgg-1p19qdeletion/) |
+| PROSTATEx-2 | PROSTATEx-2: Lesion Classification Challenge | 2017.06 | AAPM Grand Challenge |  | [Project](https://www.aapm.org/GrandChallenge/PROSTATEx-2/) |
+| ACDC | Automatic Cardiac Diagnosis Challenge | 2017.09 | STACOM / MICCAI | [Paper](https://ieeexplore.ieee.org/document/8360453) | [Project](https://www.creatis.insa-lyon.fr/Challenge/acdc/) |
+| RETOUCH | RETOUCH: Retinal OCT Fluid Segmentation Challenge | 2017.09 | MICCAI Challenge | [Paper](https://doi.org/10.1016/j.media.2019.101570) | [Project](https://retouch.grand-challenge.org/Home/) |
+| ROCC | ROCC: Retinal OCT Classification Challenge | 2017.09 | MICCAI Challenge |  | [Project](https://rocc.grand-challenge.org/) |
+| iSeg2017 | iSeg-2017: Infant Brain MRI Segmentation Challenge | 2017.09 | MICCAI Challenge | [Paper](https://iseg2017.web.unc.edu/wp-content/uploads/sites/14056/2019/02/Benchmark-on-Automatic-6-month-old-Infant-Brain-Segmentation-Algorithms.pdf) | [Project](https://iseg2017.web.unc.edu/) |
+| DeepLesion | DeepLesion: automated mining of large-scale lesion annotations and universal lesion detection in CT | 2017.10 | JMI / arXiv | [Paper](https://arxiv.org/abs/1710.01766) | [Project](https://nihcc.app.box.com/v/DeepLesion) |
+| LUNA 16 | Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: the LUNA 16 challenge | 2017.12 | Medical Image Analysis | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841517301020) | [Project](https://luna16.grand-challenge.org/) |
+| Mandibular-CT-Dataset | Mandibular CT Dataset Collection for 3D Reconstruction and Segmentation | 2018.03 | figshare | [Paper](https://arxiv.org/pdf/1902.05255) | [Project](https://figshare.com/articles/dataset/Mandibular_CT_Dataset_Collection/6167726) |
+| FUMPE | Computer-aided detection of pulmonary embolism in CT | 2018.03 | arXiv / Kaggle |  | [Project](https://www.kaggle.com/andrewmvd/pulmonary-embolism-in-ct-images) |
+| ISLES 2018 | ISLES 2018 – Ischemic Stroke Lesion Segmentation | 2018.09 | MICCAI Challenge | [Paper](https://www.sci-hub.ru/10.1177/0271678X15610586) | [Project](http://www.isles-challenge.org/ISLES2018/) |
+| MRBrainS18 | MRBrainS18: MR Brain Segmentation Challenge 2018 | 2018.09 | MICCAI Challenge |  | [Project](https://mrbrains18.isi.uu.nl/data/) |
+| Atrial Segmentation Challenge | 2018 Atrial Segmentation Challenge | 2018.09 | MICCAI Challenge |  | [Project](https://www.cardiacatlas.org/atriaseg2018-challenge/) |
+| IVDM3Seg | IVDM3Seg: Intervertebral Disc and Vertebrae Segmentation Challenge | 2018.09 | MICCAI Challenge |  | [Project](https://ivdm3seg.weebly.com/) |
+| MRNet | MRNet: Knee MRI Dataset for Abnormality Detection | 2018.09 | NIPS Workshop |  | [Project](https://stanfordmlgroup.github.io/competitions/mrnet/) |
+| OCT Glaucoma Detection | Glaucoma Detection in 3D Spectral-Domain OCT | 2018.10 | Sci Rep |  | [Project](https://doi.org/10.5281/zenodo.1481223) |
+| BraTS | Brain Tumor Segmentation (BraTS) Challenge | 2018.11 | MICCAI Challenge (series) | [Paper](https://arxiv.org/abs/1811.02629) | [Project](https://www.med.upenn.edu/cbica/brats/) |
+| fastMRI | fastMRI: A Publicly Available Raw k-Space and DICOM Dataset of Knee and Brain MR Images | 2018.11 | MRM | [Paper](https://arxiv.org/abs/1811.08839) | [Project](https://fastmri.med.nyu.edu/) |
+| LiTS | Liver Tumor Segmentation (LiTS) Challenge | 2019.01 | MICCAI Challenge | [Paper](https://arxiv.org/abs/1901.04056) | [Project](https://competitions.codalab.org/competitions/17094) |
+| OASIS-3 | OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease | 2019.01 | Sci Data | [Paper](https://www.medrxiv.org/content/10.1101/2019.12.13.19014902v1) | [Project](https://www.oasis-brains.org/) |
+| MM-WHS | MM-WHS: Multi-Modality Whole Heart Segmentation | 2019.02 | MICCAI Challenge | [Paper](https://arxiv.org/abs/1902.07880) | [Project](https://zmiclab.github.io/zxh/0/mmwhs/) |
+| CHAOS CT-MRI | CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation | 2019.02 | ISBI Challenge | [Paper](https://chaos.grand-challenge.org/Publications/) | [Project](https://chaos.grand-challenge.org/) |
+| KiTS19 | KiTS19: Kidney Tumor Segmentation Challenge | 2019.04 | MICCAI Challenge | [Paper](https://arxiv.org/abs/1904.00445) | [Project](https://kits19.grand-challenge.org/) |
+| AAPM-RT-MAC | AAPM RT-MAC: MR-only based Radiotherapy in Head and Neck | 2019.07 | AAPM Challenge | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC7322982/) | [Project](https://www.cancerimagingarchive.net/collection/aapm-rt-mac/) |
+| iSeg-2019 | iSeg-2019: Infant Brain MRI Segmentation Challenge | 2019.09 | MICCAI Challenge | [Paper](https://iseg2019.web.unc.edu/) | [Project](https://iseg2019.web.unc.edu/) |
+| SegTHOR | SegTHOR: Segmentation of thoracic organs at risk in CT images | 2019.09 | Physica Medica | [Paper](https://arxiv.org/abs/1912.05950) | [Project](https://competitions.codalab.org/competitions/21145) |
+| VerSe20 | VerSe 2020: Vertebral Segmentation Challenge at MICCAI | 2020.01 | MICCAI Challenge |  | [Project](https://verse2020.grand-challenge.org/) |
+| VerSe19 | VerSe 2019: Vertebral Segmentation Challenge at MICCAI | 2020.01 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2001.09193) | [Project](https://verse2019.grand-challenge.org/) |
+| COVID-19-CT-Seg | COVID-19 CT lung and infection segmentation dataset | 2020.04 | zenodo |  | [Project](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark) |
+| M&Ms | M&Ms: Multi-Centre, Multi-Vendor & Multi-Disease Cardiac MR Segmentation Challenge | 2020.05 | MICCAI Challenge |  | [Project](https://www.ub.edu/mnms/) |
+| CTPelvic1K | CTPelvic1K: A Large-Scale Pelvic CT Dataset for Multi-Task Parsing | 2020.06 | arXiv | [Paper](https://pubmed.ncbi.nlm.nih.gov/33864189/) | [Project](https://github.com/MIRACLE-Center/CTPelvic1K) |
+| Prostate MR Segmentation Dataset (SAML) | Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space | 2020.09 | MICCAI |  | [Project](https://liuquande.github.io/SAML/) |
+| EMIDEC | EMIDEC 2020: Myocardial Infarction Detection, Segmentation and Classification | 2020.09 | MICCAI Challenge | [Paper](https://emidec.com/) | [Project](https://emidec.com/) |
+| KNOAP2020 | KNOAP2020: Knee Osteoarthritis Progression Prediction Challenge | 2020.09 | MICCAI Challenge |  | [Project](https://knoap2020.grand-challenge.org/Home/) |
+| Learn2Reg Lung CT | Learn2Reg 2020: Lung CT Registration | 2020.09 | MICCAI Challenge |  | [Project](https://learn2reg.grand-challenge.org/) |
+| Learn2Reg Abdomen CT-CT | Learn2Reg 2020: Abdominal CT-CT Registration | 2020.09 | MICCAI Challenge |  | [Project](https://learn2reg.grand-challenge.org/) |
+| RibFrac2020 | RibFrac: Rib Fracture Detection and Classification Challenge | 2020.10 | MICCAI Challenge |  | [Project](https://ribfrac.grand-challenge.org/) |
+| HECKTOR 2020 | HECKTOR 2020: Segmentation of Head and Neck Tumor in PET/CT | 2020.11 | MICCAI Challenge |  | [Project](https://www.aicrowd.com/challenges/miccai-2020-hecktor) |
+| CT-ORG | CT-ORG, a new dataset for multiple organ segmentation in computed tomography | 2020.11 | Nature | [Paper](https://www.nature.com/articles/s41597-020-00715-8) | [Project](https://springernature.figshare.com/articles/dataset/Metadata_record_for_CT-ORG_a_dataset_for_multiple_organ_segmentation_in_computed_tomography/13055663) |
+| RAD-ChestCT | Machine-Learning-Based Multiple Abnormality Prediction with Large-Scale Chest Computed Tomography Volumes | 2021.01 | Medical Image Analysis | [Paper](https://arxiv.org/abs/2002.04752) | [Project](https://zenodo.org/records/6406114) |
+| Eye OCT Datasets (3D) | 3D Retinal OCT Classification and Segmentation Dataset | 2021.01 | Tianchi |  | [Project](https://tianchi.aliyun.com/dataset/dataDetail?dataId=90672) |
+| HECKTOR 2021 | HECKTOR 2021: Head and Neck Tumor Segmentation and Outcome Prediction | 2021.05 | MICCAI Challenge |  | [Project](https://www.aicrowd.com/challenges/miccai-2021-hecktor) |
+| CTSpine1K | CTSpine1K: A Large-Scale Dataset for Spine Parsing in CT | 2021.07 | arXiv |  | [Project](https://github.com/MIRACLE-Center/CTSpine1K) |
+| MSSEG-2 | MSSEG-2 challenge: Multiple Sclerosis Lesion Segmentation at 7T and 3T MRI | 2021.07 | NeuroImage Clin |  | [Project](https://portal.fli-iam.irisa.fr/msseg-2/data/) |
+| FLARE21 | FLARE 2021: A Challenge on Abdominal Multi-organ Segmentation | 2021.09 | MICCAI Challenge |  | [Project](https://flare.grand-challenge.org/FLARE21/) |
+| QUBIQ2021 3D CT | QUBIQ 2021: Quantification of Uncertainty in Biomedical Image Quantification | 2021.09 | MICCAI Challenge |  | [Project](https://qubiq21.grand-challenge.org/QUBIQ2021/) |
+| M&Ms-2 | M&Ms-2: Multi-Domain Cardiac MR Segmentation | 2021.09 | MICCAI Challenge |  | [Project](https://www.ub.edu/mnms-2/) |
+| Learn2Reg Abdomen MR-CT | Learn2Reg 2021: Abdominal MR-CT Multi-Modal Registration | 2021.09 | MICCAI Challenge |  | [Project](https://learn2reg.grand-challenge.org/) |
+| CrossMoDA2021 | CrossMoDA 2021: Unsupervised Domain Adaptation for Cross-Modality Vestibular Schwannoma Segmentation | 2021.09 | MICCAI Challenge |  | [Project](https://crossmoda.grand-challenge.org/CrossMoDA/) |
+| WORD | WORD: A Whole-Organ CT Dataset for Robust Multi-Organ Segmentation | 2021.10 | arXiv | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841522002705) | [Project](https://github.com/HiLab-git/WORD) |
+| MedMNIST v2 | MedMNIST v2 -- A large-scale lightweight benchmark for 2D and 3D biomedical image classification | 2021.10 | Nature | [Paper](https://arxiv.org/abs/2110.14795) | [Project](https://medmnist.com/) |
+| CADA | CADA: Cerebral Aneurysm Detection and Analysis Challenge | 2022.04 | MICCAI Challenge |  | [Project](https://cada.grand-challenge.org/) |
+| CADA-AS | CADA-AS: Aneurysm Segmentation Challenge | 2022.04 | MICCAI Challenge |  | [Project](https://cada-as.grand-challenge.org/) |
+| CADA-RRE | CADA-RRE: Rupture Risk Estimation for Cerebral Aneurysms | 2022.04 | MICCAI Challenge |  | [Project](https://cada-rre.grand-challenge.org/) |
+| TotalSegmentator | TotalSegmentator: robust segmentation of 104 anatomic structures in CT images | 2022.06 | arXiv | [Paper](https://arxiv.org/abs/2208.05868) | [Project](https://totalsegmentator.com/) |
+| AMOS | AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation | 2022.06 | NeurIPS 2022 | [Paper](https://arxiv.org/abs/2206.08023) | [Project](https://amos22.grand-challenge.org/) |
+| MSD | The medical segmentation decathlon | 2022.07 | Nature Communications | [Paper](https://doi.org/10.1038/s41467-022-30695-9) | [Project](http://medicaldecathlon.com/) |
+| AutoPET | The AutoPET Challenge: Automated Lesion Segmentation in Whole-Body FDG-PET/CT | 2022.07 | MICCAI Challenge (autoPET2022) |  | [Project](https://autopet.grand-challenge.org/) |
+| UPENN-GBM | UPENN-GBM: Multi-modal MRI Dataset for Glioblastoma Segmentation | 2022.07 | TCIA Collection |  | [Project](https://www.cancerimagingarchive.net/collection/upenn-gbm/) |
+| KiPA22 | KiPA22: Kidney PArametric segmentation in contrast-enhanced CT | 2022.08 | MICCAI Challenge |  | [Project](https://kipa22.grand-challenge.org/) |
+| OLIVES | OLIVES: A 3D OCT Dataset for Longitudinal Retinal Imaging | 2022.09 | arXiv |  | [Project](https://github.com/olivesgatech/OLIVES_Dataset) |
+| PI-CAI | PI-CAI: Prostate Imaging–Cancer AI Challenge | 2022.09 | MICCAI Challenge |  | [Project](https://pi-cai.grand-challenge.org/PI-CAI/) |
+| LAScarQS 2022 | LAScarQS 2022: Left Atrial Scar Quantification and Segmentation Challenge | 2022.09 | MICCAI Challenge |  | [Project](https://zmiclab.github.io/projects/lascarqs22/) |
+| CrossMoDA2022 | CrossMoDA 2022: Domain Adaptation for Vestibular Schwannoma Segmentation and Koos Grading | 2022.09 | MICCAI Challenge |  | [Project](https://crossmoda2022.grand-challenge.org/crossmoda2022/) |
+| FeTA 2022 | FeTA 2022: Fetal Brain Tissue Segmentation at MICCAI | 2022.09 | MICCAI Challenge |  | [Project](https://feta.grand-challenge.org/feta-2022/) |
+| COSMOS 2022 | COSMOS 2022: Carotid Artery Vessel Wall Segmentation | 2022.09 | MICCAI Challenge |  | [Project](https://vessel-wall-segmentation-2022.grand-challenge.org/) |
+| cSeg-2022 | cSeg 2022: Cerebellum Segmentation Challenge | 2022.09 | MICCAI Challenge |  | [Project](https://tarheels.live/cseg2022/) |
+| ISLES 2022 | ISLES 2022 – Acute and Subacute Ischemic Stroke Lesion Segmentation | 2022.09 | MICCAI Challenge |  | [Project](https://isles22.grand-challenge.org/) |
+| InSTANCE2022 | InSTANCE 2022: Intracranial Hemorrhage Segmentation Challenge | 2022.09 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2301.03281) | [Project](https://instance.grand-challenge.org/Instance2022/) |
+| Learn2Reg NLST | Learn2Reg 2022: Thoracic CT Registration with NLST | 2022.09 | MICCAI Challenge |  | [Project](https://learn2reg.grand-challenge.org/) |
+| Shifts Challenge 2022 | Shifts 2022: Distribution Shifts in Multiple Sclerosis Lesion Segmentation | 2022.09 | MICCAI Challenge | [Paper](https://shifts.grand-challenge.org/) | [Project](https://shifts.grand-challenge.org/) |
+| HECKTOR 22 | Overview of the HECKTOR challenge at MICCAI 2022: automatic head and neck tumor segmentation and outcome prediction in PET/CT | 2023 | MICCAI 2022 | [Paper](https://pubmed.ncbi.nlm.nih.gov/37195050/) | [Project](https://hecktor.grand-challenge.org/) |
+| LNDb | LNDb challenge on automatic lung cancer patient management | 2023.03 | Medical Image Analysis | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-27420-6_1) | [Project](https://lndb.grand-challenge.org/) |
+| Semi-TeethSeg | Semi-TeethSeg: Semi-Supervised 3D Tooth Segmentation in CBCT/CT | 2023.04 | arXiv |  | [Project](https://zenodo.org/record/7840021) |
+| PARSE22 | Efficient automatic segmentation for multi-level pulmonary arteries: The parse challenge | 2023.04 | arXiv | [Paper](https://arxiv.org/abs/2304.03708) | [Project](https://parse2022.grand-challenge.org/Parse2022/) |
+| STAGE | STAGE: Longitudinal OCT Dataset for Glaucoma Progression | 2023.04 | Dataset |  | [Project](https://doi.org/10.5281/zenodo.7835341) |
+| KiTS21 | The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct | 2023.07 | arXiv | [Paper](https://arxiv.org/abs/2307.01984) | [Project](https://kits21.kits-challenge.org/) |
+| AutoPET II | AutoPET-II: Ensemble-based Uncertainty-Aware Lesion Segmentation in Multi-Center FDG-PET/CT | 2023.07 | MICCAI Challenge (AutoPET-II) |  | [Project](https://autopet-ii.grand-challenge.org/) |
+| MedMD | Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data | 2023.08 | arXiv | [Paper](https://arxiv.org/abs/2308.02463) | [Project](https://radiopaedia.org/) |
+| ULS23 | ULS23 Challenge: Universal Lesion Segmentation in CT for Oncological Imaging | 2023.08 | MICCAI Challenge |  | [Project](https://uls23.grand-challenge.org/uls23/) |
+| SegRap2023 | SegRap 2023: Nasopharyngeal Carcinoma Radiotherapy Segmentation Challenge | 2023.08 | MICCAI Challenge |  | [Project](https://segrap2023.grand-challenge.org/) |
+| LNQ2023 | LNQ2023: Lymph Node Quantification in Chest CT | 2023.08 | MICCAI Challenge |  | [Project](https://lnq2023.grand-challenge.org/) |
+| FLARE23 | FLARE 2023: A Federated Learning Challenge for Abdominal Multi-Organ Segmentation | 2023.09 | MICCAI Challenge |  | [Project](https://codalab.lisn.upsaclay.fr/competitions/12239) |
+| CrossMoDA2023 | CrossMoDA 2023: Multi-Center Domain Adaptation for VS Segmentation | 2023.09 | MICCAI Challenge |  | [Project](https://crossmoda-challenge.ml/) |
+| ATLAS2023 | ATLAS 2023: Liver Tumor Segmentation Challenge | 2023.09 | MICCAI Challenge | [Paper](https://www.mdpi.com/2306-5729/8/5/79) | [Project](https://atlas-challenge.u-bourgogne.fr/) |
+| SMILE-UHURA2023 | SMILE-UHURA 2023: Small Vessel Disease Lesion Segmentation | 2023.09 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2411.09593) | [Project](https://www.synapse.org/#!Synapse:syn47164761/wiki/620033) |
+| CAS2023 | CAS 2023: Brain Structure Segmentation Benchmark | 2023.09 | MICCAI Challenge |  | [Project](https://codalab.lisn.upsaclay.fr/competitions/9804) |
+| CROWN2023 | CROWN 2023: White Matter Hyperintensity and Other Pathology Classification | 2023.09 | MICCAI Challenge |  | [Project](https://crown.isi.uu.nl/) |
+| SLCN | SLCN: Structural Lesion and Connectivity in Neurodevelopmental Disorders | 2023.09 | MICCAI Challenge |  | [Project](https://slcn.grand-challenge.org/) |
+| ToothFairy2023 | ToothFairy: 3D CBCT Dataset for Inferior Alveolar Nerve Segmentation | 2023.09 | MICCAI Challenge |  | [Project](https://toothfairy.grand-challenge.org/toothfairy/) |
+| XPRESS2023 | XPRESS 2023: X-ray Phase-Contrast CT Neuroanatomy Segmentation | 2023.09 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2302.03819) | [Project](https://xpress.grand-challenge.org/) |
+| Learn2Reg ThoraxCBCT | Learn2Reg 2023: Thorax CBCT/FBCT Deformable Registration | 2023.09 | MICCAI Challenge |  | [Project](https://learn2reg.grand-challenge.org/) |
+| TDSC-ABUS2023 | TDSC-ABUS2023: Automated Breast Ultrasound Segmentation Challenge | 2023.09 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2501.15588) | [Project](https://tdsc-abus2023.grand-challenge.org/) |
+| MVSeg-3DTEE2023 | MVSeg-3DTEE2023: Mitral Valve Segmentation from 3D TEE | 2023.09 | MICCAI Challenge |  | [Project](https://www.synapse.org/#!Synapse:syn51186045/wiki/621356) |
+| RegPro2023 | RegPro 2023: Prostate MR-US Registration Challenge | 2023.09 | MICCAI Challenge |  | [Project](https://muregpro.github.io/) |
+| KiTS23 | KiTS23: Kidney and Kidney Tumor Segmentation with Comprehensive Clinical Annotations | 2023.10 | arXiv |  | [Project](https://kits-challenge.org/kits23/) |
+| WBMR-NF | WBMR-NF: Whole-Body MRI for Neurofibromatosis | 2023.11 | Dataset |  | [Project](https://mgh-3dqi.github.io/) |
+| GAMMA | GAMMA Challenge: Glaucoma Assessment with Multi-Modality Data | 2023.12 | MICCAI Challenge | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523001986) | [Project](https://gamma.grand-challenge.org/) |
+| ATM'22 | ATM'22: Airway Tree Modeling in Thoracic CT | 2023.12 | MICCAI Challenge | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523002177) | [Project](https://atm22.grand-challenge.org/) |
+| INSPECT | INSPECT: A Multimodal Dataset for Pulmonary Embolism Diagnosis and Prognosis | 2023.12 | NeurIPS 2023 | [Paper](https://arxiv.org/abs/2311.10798) | [Project](http://www.isles-challenge.org/) |
+| HaN-Seg | HaN-Seg 2023: Head and Neck Organ at Risk Segmentation Challenge | 2024 | MICCAI Challenge | [Paper](https://www.sciencedirect.com/science/article/pii/S0167814024006807) | [Project](https://han-seg2023.grand-challenge.org/) |
+| VALDO | Where is VALDO? Vascular Lesions Detection and Segmentation Challenge | 2024.01 | MICCAI Challenge | [Paper](https://www.sciencedirect.com/science/article/pii/S136184152300289X) | [Project](https://valdo.grand-challenge.org/) |
+| BIMCV-R | BIMCV-R: Large-Scale Thoracic CT Reconstruction Benchmark | 2024.01 | MICCAI24 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72120-5_12) | [Project](https://huggingface.co/datasets/cyd0806/BIMCV-R) |
+| IXI | Information eXtraction from Images (IXI) Dataset | 2024.01 | Dataset |  | [Project](http://brain-development.org/ixi-dataset/) |
+| RAOS | RAOS: A Large-Scale Radiotherapy Abdominal Organ Segmentation Dataset | 2024.01 | MICCAI24 | [Paper](https://arxiv.org/abs/2406.13674) | [Project](https://github.com/Luoxd1996/RAOS) |
+| ISLES 2024 | Ischemic Stroke Lesion Segmentation Challenge 2024 (ISLES 2024) | 2024.02 | MICCAI Challenge |  | [Project](https://www.isles-challenge.org/) |
+| AbdomenAtlas | AbdomenAtlas-20K: A Large-Scale Benchmark for Abdominal Multi-Organ Segmentation in CT | 2024.02 | arXiv | [Paper](https://arxiv.org/abs/2407.16697) | [Project](https://www.zongweiz.com/dataset) |
+| OpenMind | OpenMind: Large-Scale Head-and-Neck MR Dataset for Foundation Models | 2024.02 | arXiv |  | [Project](https://huggingface.co/datasets/AnonRes/OpenMind) |
+| TriALS2024 | TriALS 2024: Liver Tumor Segmentation and Outcome Prediction – Task 1 | 2024.03 | MICCAI24 |  | [Project](https://github.com/xmed-lab/TriALS) |
+| LAScarQS++ 2024 | LAScarQS++ 2024: Multi-Center Atrial Scar Segmentation | 2024.03 | CARE Workshop (MICCAI) |  | [Project](https://www.zmic.org.cn/care_2024/track2/) |
+| MyoPS | MyoPS: A Benchmark of Myocardial Pathology Segmentation Combining Three-Sequence Cardiac Magnetic Resonance Images# MyoPS: A Benchmark of Myocardial Pathology Segmentation Combining Three-Sequence Cardiac Magnetic Resonance Images | 2024.03 | CARE Workshop | [Paper](https://arxiv.org/abs/2201.03186) | [Project](https://www.zmic.org.cn/care_2024/track4/) |
+| WHS++ 2024 | WHS++ 2024: Multi-Center Whole Heart Segmentation | 2024.03 | CARE Workshop |  | [Project](https://www.zmic.org.cn/care_2024/track5/) |
+| AMOS-MM | AMOS-MM: Multi-Phase Abdominal CT Benchmark for Translation and Synthesis | 2024.03 | arXiv | [Paper](https://doi.org/10.5281/zenodo.10992155) | [Project](https://zenodo.org/records/10992155) |
+| CT2Rep | CT2Rep: Automated Radiology Report Generation for 3D Medical Imaging | 2024.03 | MICCAI 2024 | [Paper](https://arxiv.org/abs/2403.06801) | [Project](https://github.com/ibrahimethemhamamci/CT2Rep) |
+| TotalSegmentator MRI | TotalSegmentator MRI: Whole-body MRI Segmentation of 150 Structures | 2024.04 | arXiv | [Paper](https://arxiv.org/abs/2405.19492) | [Project](https://zenodo.org/doi/10.5281/zenodo.11367004) |
+| RadGenome-ChestCT | RadGenome-Chest CT: a grounded vision-language dataset for chest CT analysis | 2024.04 | arXiv | [Paper](https://doi.org/10.48550/arXiv.2404.16754) | [Project](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) |
+| M3D | M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models | 2024.04 | ICLR 2025 | [Paper](https://arxiv.org/abs/2404.00578) | [Project](https://github.com/BAAI-DCAI/M3D) |
+| AIIB23 | AIIB23: Airway Inflammation Imaging Biomarkers Challenge | 2024.06 | MICCAI Challenge | [Paper](https://doi.org/10.1016/j.media.2024.103253) | [Project](https://codalab.lisn.upsaclay.fr/competitions/13238) |
+| CT-3DRRG | Argus: Benchmarking and Enhancing Vision-Language Models for 3D Radiology Report Generation | 2024.06 | arXiv | [Paper](https://arxiv.org/abs/2406.07146) | — |
+| RadGenome-Brain MRI | AutoRG-Brain: Grounded Report Generation for Brain MRI | 2024.10 | MICCAI 2024 | [Paper](https://arxiv.org/abs/2407.16684) | [Project](https://github.com/ljy19970415/AutoRG-Brain) |
+| MedShapeNet | MedShapeNet -- A Large-Scale Dataset of 3D Medical Shapes for Computer Vision | 2024.12 | Biomedizinische Technik | [Paper](https://arxiv.org/abs/2308.16139) | [Project](https://medshapenet.ikim.nrw/) |
+| RadA-BenchPlat | How well can modern LLMs act as agent cores in radiology environments? | 2024.12 | arXiv | [Paper](https://arxiv.org/abs/2412.09529) |  |
+| MedVL-CT69K | Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding | 2025.01 | ICLR 2025 | [Paper](https://arxiv.org/abs/2501.14548) | [Project](https://github.com/alibaba-damo-academy/fvlm) |
+| Triad | Triad: Vision Foundation Model for 3D Magnetic Resonance Imaging | 2025.02 | arXiv | [Paper](https://arxiv.org/abs/2502.14064) |  |
+| 3D-BrainCT | Towards a holistic framework for multimodal LLM in 3D brain CT radiology report generation | 2025.03 | Nat. Commun. | [Paper](https://www.nature.com/articles/s41467-025-57426-0) | — |
+| PENGWIN2024-Task1 | PENGWIN 2024: Pelvic Fracture Segmentation in Trauma CT | 2025.04 | MICCAI Challenge | [Paper](https://arxiv.org/abs/2504.02382) | [Project](https://pengwin.grand-challenge.org/) |
+| RibFrac | Deep rib fracture instance segmentation and classification from ct on the ribfrac challenge | 2025.04 | IEEE | [Paper](https://arxiv.org/abs/2402.09372) | [Project](https://ribfrac.grand-challenge.org/) |
+| DeepTumorVQA | Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering | 2025.05 | NeurIPS 2025 | [Paper](https://arxiv.org/abs/2505.18915) | [Project](https://github.com/Schuture/DeepTumorVQA) |
+| NOVA | NOVA: A Benchmark for Anomaly Localization and Clinical Reasoning in Brain MRI | 2025.05 | NeurIPS 2025 | [Paper](https://arxiv.org/abs/2505.14064) |  |
+| Lingshu | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | 2025.06 | arXiv | [Paper](https://arxiv.org/abs/2506.07044) | [Project](https://alibaba-damo-academy.github.io/lingshu/) |
+| ReXGroundingCT | ReXGroundingCT: A 3D Chest CT Dataset for Segmentation of Findings from Free-Text Reports | 2025.07 | arXiv | [Paper](https://arxiv.org/abs/2507.22030) | [Project](https://huggingface.co/datasets/rajpurkarlab/ReXGroundingCT) |
+| ViPET-ReportGen | Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation | 2025.12 | NeurIPS 2025 | [Paper](https://arxiv.org/abs/2509.24739) | [Project](https://github.com/AIoT-Lab-AI4LIFE/ViPET-ReportGen) |
+| 3D-RAD | 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks | 2025.12 | NeurIPS 2025 | [Paper](https://arxiv.org/abs/2506.11147) | [Project](https://github.com/Tang-xiaoxiao/3D-RAD) |
+| MR-RATE | MR-RATE: A Vision-Language Foundation Model and Dataset for Magnetic Resonance Imaging | 2026 | — | — | [Project](https://github.com/forithmus/MR-RATE) |
+| CT-RATE | Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography | 2026.02 | Nature | [Paper](https://arxiv.org/abs/2403.17834) | [Project](https://github.com/ibrahimethemhamamci/CT-CLIP) |
+| CT-FlowBench | CT-FlowBench: Benchmark for CT interpretation workflow and tool-use | 2026.03 | arXiv | [Paper](https://arxiv.org/abs/2603.00123) |  |
+| Merlin | Merlin: A Vision Language Foundation Model for 3D Computed Tomography | 2026.03 | Nature | [Paper](https://www.nature.com/articles/s41586-026-10181-8) | [Project](https://github.com/StanfordMIMI/Merlin) |
+| Gastric-X | Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis | 2026.03 | CVIPPR 2026 | [Paper](https://arxiv.org/abs/2603.19516) | — |
+| SpatialMed | Beyond Medical Diagnostics: How Medical Multimodal Large Language Models Think in Space | 2026.03 | arXiv | [Paper](https://arxiv.org/abs/2603.13800) |  |
+| BONBID-HIE2023 | BONBID-HIE 2023: Neonatal Hypoxic-Ischemic Encephalopathy Lesion Segmentation | 2026.04 | MICCAI Challenge | [Paper](https://pubmed.ncbi.nlm.nih.gov/41379890/) | [Project](https://bonbid-hie2023.grand-challenge.org/bonbid-hie2023/) |
+| SGMRI-VQA | Beyond a Single Frame: Multi-Frame Spatially Grounded Reasoning Across Volumetric MRI | 2026.04 | arXiv | [Paper](https://arxiv.org/abs/2604.15808) |  |
+| Curia-2 | Curia-2: Scaling Self-Supervised Learning for Radiology Foundation Models | 2026.04 | arXiv | [Paper](https://arxiv.org/abs/2604.01987) |  |
+| CT-SpatialVQA | Lost in Volume: The CT-SpatialVQA Benchmark for Evaluating Semantic-Spatial Understanding of 3D Medical Vision-Language Models | 2026.05 | arXiv | [Paper](https://arxiv.org/abs/2605.08787) |  |
+| Med-StepBench | Med-StepBench: A Hierarchical Reasoning Framework for Evaluating Hallucinations in Medical Vision-Language Models | 2026.05 | arXiv | [Paper](https://arxiv.org/abs/2605.10002) |  |
+| DeepTumorVQA-H | DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented Agents | 2026.05 | arXiv | [Paper](https://arxiv.org/abs/2605.09679) |  |
+| ABRA | ABRA: Agent Benchmark for Radiology Applications | 2026.05 | arXiv | [Paper](https://arxiv.org/abs/2605.11224) |  |
+| RadSaFE-200 | Safety and Accuracy Follow Different Scaling Laws in Clinical Large Language Models | 2026.05 | arXiv | [Paper](https://arxiv.org/abs/2605.04039) |  |
+| Oncology VQA Benchmark | Automated Report-Derived Oncology VQA Benchmark for Evaluating Vision-Language Models on 3D Medical Imaging | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.02809) |  |
+| Abdomen-NCCT Benchmark | A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.16991) |  |
+| RadOT-Eval | RadOT-Eval: Auditable Structured-Evidence Transport for Radiology Report Evaluation | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.08769) |  |
+| ReportQA | ReportQA: QA-Based Radiology Report Evaluation | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.15037) |  |
+| CORTEX | CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.27264) |  |
+| MedCTA | MedCTA: A Benchmark for Clinical Tool Agents | 2026.06 | arXiv | [Paper](https://arxiv.org/abs/2606.11702) |  |
+| Lung CT FM Benchmark | Foundation Models vs. Radiomics for Lung Computed Tomography: A Benchmark of Feature Extractors, Classification Heads, and Segmentation Choices | 2026.07 | arXiv | [Paper](https://arxiv.org/abs/2607.01001) | [Project](https://github.com/AI4HealthUOL/lung-ct-benchmarking) |
+| Brain Oncology 3D MRI-Text | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | 2026.07 | arXiv | [Paper](https://arxiv.org/abs/2607.14581) | - |
+| COBRA2026 | COBRA2026: a large-scale multicenter pelvic cone-beam computed tomography projection dataset | 2026.07 | arXiv | [Paper](https://arxiv.org/abs/2607.20037) | [Project](https://doi.org/10.5281/zenodo.21322350) |
+| GLI-AL | GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels | 2026.07 | arXiv | [Paper](https://arxiv.org/abs/2607.22135) | [Project](https://www.synapse.org/Synapse:syn75210889/wiki/) |
 ---
 
 ## **Related Surveys**
