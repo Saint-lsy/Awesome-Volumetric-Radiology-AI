@@ -34,6 +34,7 @@
 |  | Unified 3D MRI Representations via Sequence-Invariant Contrastive Learning | arXiv | 2025.01 | [Paper](https://arxiv.org/abs/2501.12057v2) | [Project](https://github.com/liamchalcroft/contrast-squared) |
 | GzPT | Improving Self-Supervised Medical Image Pre-Training by Early Alignment With Human Eye Gaze Information | AAAI24/IEEE TMI | 2025.01 | [Paper](https://ieeexplore.ieee.org/document/10839445) | [Project](https://github.com/zhaozh10/McGIP) |
 | FM-HCT | 3D Foundation AI Model for Generalizable Disease Detection in Head Computed Tomography | arXiv | 2025.02 | [Paper](https://arxiv.org/pdf/2502.02779) | [Project](https://github.com/NYUMedML/headCT_foundation) |
+|  | MedVAE: Efficient Automated Interpretation of Medical Images with Large-Scale Generalizable Autoencoders | MIDL 2025 | 2025.02 | [Paper](https://arxiv.org/abs/2502.14753) | [Project](https://github.com/StanfordMIMI/MedVAE) |
 | MiM | MiM: Mask in Mask Self-Supervised Pre-Training for 3D Medical Image Analysis | IEEE TMI | 2025.04 | [Paper](https://arxiv.org/abs/2404.15580) | - |
 | BrainMVP | BrainMVP: Multi-modal Vision Pre-training for Brain MRI Analysis | CVPR 2025 (Highlight) | 2025.06 | [Paper](https://arxiv.org/html/2410.10604v1) | [Project](https://github.com/shaohao011/BrainMVP) |
 | SPECTRE | Scaling Self-Supervised and Cross-Modal Pretraining for Volumetric CT Transformers | CVPR 2026 | 2025.11 | [Paper](https://arxiv.org/abs/2511.17209) | [Project](https://github.com/cclaess/SPECTRE) |
@@ -41,10 +42,20 @@
 | 3DINO | A generalizable 3D framework and model for self-supervised learning in medical imaging | npj Digital Medicine | 2025.11 | [Paper](https://www.nature.com/articles/s41746-025-02035-w) | [Project](https://github.com/AICONSlab/3DINO?tab=readme-ov-file) |
 | TotalFM | TotalFM: An Organ-Separated Framework for 3D-CT Vision Foundation Models | arxiv | 2026.01 | [Paper](https://arxiv.org/pdf/2601.00260) | - |
 | Curia-2 | Curia-2: Scaling Self-Supervised Learning for Radiology Foundation Models | arxiv | 2026.02 | [Paper](https://arxiv.org/pdf/2604.01987) | - |
+| OCTCube-M | A 3D multimodal optical coherence tomography foundation model for retinal and systemic diseases with cross-cohort and cross-device validation | Nature Biomedical Engineering | 2026.04 | [Paper](https://www.nature.com/articles/s41551-026-01662-2) | [Project](https://github.com/ZucksLiu/OCTCubeM/tree/main) |
 | NeuroSTORM | Towards a general-purpose foundation model for fMRI analysis | NBME | 2026.03 | [Paper](https://www.researchsquare.com/article/rs-6728658/v1) | [Project](https://github.com/CUHK-AIM-Group/NeuroSTORM?tab=readme-ov-file) |
 | Triad | Vision foundation model for 3D magnetic resonance imaging segmentation, classification, and registration | MedIA | 2026.05 | [Paper](https://www.sciencedirect.com/science/article/pii/S1361841526000617) | - |
+| Foundation-VAE | Foundation VAEs for 3D CT Reconstruction, Augmentation, and Generation | ICML 2026 | 2026.05 | [Paper](https://arxiv.org/pdf/2605.30893) | [Project](https://github.com/qic999/Foundation-VAE) |
 | CoralBay | CoralBay: A Self-Supervised CT Foundation Model | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.03888) | - |
 |  | How Much MRI Preprocessing Is Enough? A Cost-Utility Study for Brain MRI Foundation Models | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.08164) | - |
+| NeuroVFM | Health system learning enables generalist neuroimaging models | Nature Medicine | 2026.07 | [Paper](https://www.nature.com/articles/s41591-026-04497-1) | [Project](https://github.com/MLNeurosurg/neurovfm) |
+| BrainFIBRE | BrainFIBRE: A Foundation Model via Information Decomposition for Brain Microstructure | ECCV 2026 / arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.00573) | - |
+| BoneCoT / BoneFM | BoneCoT: multicentre validation of a whole-body skeleton foundation model for bone metastases guided by clinician-derived chain of thought | Nature Biomedical Engineering | 2026.07 | [Paper](https://doi.org/10.1038/s41551-026-01736-1) | [Project](https://github.com/FrankZhangRp/BoneCoT) |
+| Cardiac CT FM | A Unified Framework for Comprehensive Cardiac CT Segmentation and Phenotyping: Human-in-the-Loop Data Annotation, Vision Foundation Model Development, Multicenter Evaluation and Clinical Validation | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.11287) | - |
+| COJEPA | Contrastive Joint-Embedding Prediction for Representation Learning in Structural MRI | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.11962) | - |
+| BrainNext | BrainNext: A General-Purpose Self-Supervised Foundation Model for Brain MRI Analysis | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.17782) | - |
+| OrganLens | OrganLens: Organ-Specific Representation Learning for CT Foundation Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.25164) | - |
+| Rad-JEPA 3D | Rad-JEPA 3D: Radiology Joint-Embedding Predictive Model for 3D Computed Tomography | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.26196) | - |
 ---
 
 ### **Contrastive Learning (CLIP-based Methods)**
@@ -95,11 +106,21 @@
 | ASAP | 3D | ASAP: Advancing Medical Volumetric Representation Learning with Anatomy-aware Semantically-adaptive Pre-training | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2606.00602) | - |
 | GLeVE | 3D | GLeVE: Graph-Guided Lesion Grounding with Proposal Verification in 3D CT | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.22619) | - |
 | CA-GCL | 3D | CA-GCL: Cross-Anatomy Global-Local Contrastive Learning for Robust 3D Medical Image Understanding | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.13544) | - |
+| SegReg-Rep | 3D | SegReg-Rep: Region-Aware Vision-Language Alignment for Fine-Grained Radiology Report Generation from 3D Medical Images | IEEE TPRMS | 2026.05 | [Paper](https://ieeexplore.ieee.org/abstract/document/11520942/authors) | [Project](https://github.com/BlueRainbow2000/SegReg-Rep) |
 | GLINT | 3D | GLINT: Sparsely Gated Vision-Language Alignment for Fine-Grained Radiology Representations | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.03180) | - |
 | RadGrounder | 2D | Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.20477) | - |
 | RenalCLIP | 3D | A Disease-Centric Vision-Language Foundation Model for Precision Oncology in Kidney Cancer | Nature Communications | 2026.06 | [Paper](https://www.nature.com/articles/s41467-026-74175-w) | - |
 | Jolia / ConQuer | 3D | Jolia: Concept-Level Vision-Language Alignment for 3D CT Contrastive Learning | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.24570) | - |
 |  | 3D | Disease-Centric Vision-Language Pretraining with Hybrid Visual Encoding for 3D Computed Tomography | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.25546) | - |
+| MedReCo | 3D | A Vision-language Framework for Comparative Reasoning in Radiology | arXiv | 2026.06 | [Paper](https://arxiv.org/pdf/2606.06407) | - |
+| SuG | 3D | Super-Generalist: Towards Comprehensive and Accurate Medical Image Understanding via Generalist-Specialist Synergy | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.09135) | - |
+| OKA-CT | 3D | Learning Anatomy-Grounded CT Vision-Language Representations with Organ-Hierarchical Report Knowledge | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.10953) | - |
+| OCP-CT | 3D | Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.13892) | - |
+| MseaCL | 3D | Multimodal Semantic-Aware Contrastive Learning For False Negative Mitigation in 3D Medical Imaging | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14995) | - |
+| CARVE | 3D | When Can Test-Time Adaptation Help Zero-Shot CT Vision-Language Models? | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.15556) | - |
+| ACA | 3D | Anatomy Contextualized Adaption of CT Foundation Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.27154) | - |
+| Spectrum | 3D | Learning How Much, Not Just What: Cross-Patient Burden Order for CT Vision-Language Pretraining | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2608.00231) | - |
+| SCOPE | 3D | Semantically Calibrated Evidence Composition for CT Vision-Language Learning | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2608.00239) | - |
 ---
 
 ### MLLM-based Methods
@@ -161,6 +182,10 @@
 | TGH-MoE | Adapting 2D Multi-Modal Large Language Model for 3D CT Image Analysis | arXiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.10233) | - |
 | Brain-Adapter | Brain-Adapter: A Dual-Stream Vision-Language MIL Framework for Comprehensive 3D CT Diagnosis of Acute Intracranial Pathologies | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.23494) | - |
 | UniReason-Med | UniReason-Med: A Shared Grounded Reasoning Interface for 2D-to-3D Transfer in Medical VQA | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.11740) | [Project](https://github.com/IQuestLab/unireason-med) |
+| MedReCo-VLM | A Vision-language Framework for Comparative Reasoning in Radiology | arXiv | 2026.06 | [Paper](https://arxiv.org/pdf/2606.06407) | - |
+| RadSight | RadSight: Towards Perceptually Reliable Multimodal Radiology Image Understanding | arXiv | 2026.07 | [Paper](https://arxiv.org/pdf/2607.22293) | [Project](https://github.com/alibaba-damo-academy/damo-RadSight/) |
+| ClinFusion | ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding | arXiv | 2026.07 | [Paper](https://arxiv.org/pdf/2607.24743) | [Project](https://github.com/alibaba-damo-academy/ClinFusion) |
+| Hounsfield | Towards Enhancing 3D Spatial Reasoning in Medical Multimodal Large Language Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.13860) | [Project](https://github.com/2020420145009/hounsfield) |
 ---
 
 #### **Native 3D-Volume**
@@ -195,11 +220,19 @@
 | MedVL-SAM2 | MedVL-SAM2: A unified 3D medical vision–language model for multimodal reasoning and prompt-driven segmentation | arXiv | 2026.01 | [Paper](https://arxiv.org/pdf/2601.09879) | - |
 | BoiD | Enhancing 3D medical multi-modal large language models with integrated human body priors for computed tomography | Pattern Recognition | 2026.04 | [Paper](https://www.sciencedirect.com/science/article/pii/S0031320326005066) | - |
 | DCP-PD | Enhancing Fine-Grained Spatial Grounding in 3D CT Report Generation via Discriminative Guidance | arxiv | 2026.04 | [Paper](https://arxiv.org/pdf/2604.10437) | - |
+| SegReg-Rep | SegReg-Rep: Region-Aware Vision-Language Alignment for Fine-Grained Radiology Report Generation from 3D Medical Images | IEEE TPRMS | 2026.05 | [Paper](https://ieeexplore.ieee.org/abstract/document/11520942/authors) | [Project](https://github.com/BlueRainbow2000/SegReg-Rep) |
 | CLarGen | Generating Reports or Repeating Templates? Measuring and Mitigating Template Collapse in 3D CT Report Generation | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.30984) | - |
 | TIF-GRPO | Regulating Anatomy-Aware Rewards via Trajectory-Integral Feedback for Volumetric Computed Tomography Analysis | arXiv | 2026.05 | [Paper](https://arxiv.org/abs/2605.20277) | - |
 | RAD3D-Prefix | Revisiting LLM Adaptation for 3D CT Report Generation: A Study of Scaling and Diagnostic Priors | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.17213) | - |
 | E-MRL | E-MRL: Cross-view Aligned Evidence-driven Multimodal Reinforcement Learning for Reliable 3D Tumor Analysis | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.23888) | - |
 | MRI2Rep | MRI2Rep: Autoregressive Structured Report Generation for 3D Liver MRI | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.25279) | - |
+| NeuroVFM | Health system learning enables generalist neuroimaging models | Nature Medicine | 2026.07 | [Paper](https://www.nature.com/articles/s41591-026-04497-1) | [Project](https://github.com/MLNeurosurg/neurovfm) |
+| PIPA | PIPA: Prior-Driven Prompting with Diagnosis-Oriented Retrieval-Augmentation for 3D Radiology Report Generation | IEEE TMI | 2026.07 | [Paper](https://doi.org/10.1109/TMI.2026.3710717) | [Project](https://github.com/CUHK-AIM-Group/PIPA) |
+| PD-CTAgent | Policy-Driven CT-Agent: Modeling Phase-Aware Diagnostic Control for Clinically Consistent CT Reasoning | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.10748) | - |
+| MonteRET | MonteRET: AI Agent Enhancing Multimodal LLMs with Multi-granularity Knowledge Retrieval for Chest CT Report Generation | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14264) | - |
+| Multi-LLM MRI | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14581) | - |
+| MedARC | MedARC: Training-Free Adaptive Redundancy Compression of Visual Tokens for 3D Medical Vision-Language Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.26554) | - |
+| ORCA | ORCA: ORgan-Centroid Aggregation for Training-Free 3D CT Visual Token Compression | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2608.00345) | [Project](https://github.com/renjie-liang/ORCA-3DCT) |
 ---
 
 ## **Agentic Systems**
@@ -266,7 +299,9 @@
 | MARTP | MARTP: A Multi-Agent Simulation Framework for Automated Radiation Therapy Planning Based on LLMs | Physics in Medicine and Biology | 2026.06 | [Paper](https://doi.org/10.1088/1361-6560/ae6af6) | - |
 | SAGE | Automated Stereotactic Radiosurgery Planning Using a Human-in-the-Loop Reasoning Large Language Model Agent | Research Square | 2026.06 | [Paper](https://doi.org/10.21203/rs.3.rs-8612138/v1) | - |
 | PET/CT Agent | End-to-End PET/CT Interpretation and Quantification with an LLM-Orchestrated AI Agent: A Real-World Pilot Study | Journal of Nuclear Medicine | 2026.06 | [Paper](https://doi.org/10.2967/jnumed.126.272362) | - |
----
+| PD-CTAgent | Policy-Driven CT-Agent: Modeling Phase-Aware Diagnostic Control for Clinically Consistent CT Reasoning | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.10748) | - |
+| MonteRET | MonteRET: AI Agent Enhancing Multimodal LLMs with Multi-granularity Knowledge Retrieval for Chest CT Report Generation | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14264) | - |
+| One-for-All | One-for-All Adaptive Radiotherapy Planning Agent: A Foundation Framework for Daily CBCT-guided Radiotherapy | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14870) | - |
 
 ## **Datasets & Benchmarks**
 
@@ -449,6 +484,10 @@
 | ReportQA | ReportQA: QA-Based Radiology Report Evaluation | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.15037) |
 | CORTEX | CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.27264) |
 | MedCTA | MedCTA: A Benchmark for Clinical Tool Agents | 2026.06 | arXiv |  | [Paper](https://arxiv.org/abs/2606.11702) |
+| Lung CT FM Benchmark | Foundation Models vs. Radiomics for Lung Computed Tomography: A Benchmark of Feature Extractors, Classification Heads, and Segmentation Choices | 2026.07 | arXiv | [Project](https://github.com/AI4HealthUOL/lung-ct-benchmarking) | [Paper](https://arxiv.org/abs/2607.01001) |
+| Brain Oncology 3D MRI-Text | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | 2026.07 | arXiv | - | [Paper](https://arxiv.org/abs/2607.14581) |
+| COBRA2026 | COBRA2026: a large-scale multicenter pelvic cone-beam computed tomography projection dataset | 2026.07 | arXiv | [Project](https://doi.org/10.5281/zenodo.21322350) | [Paper](https://arxiv.org/abs/2607.20037) |
+| GLI-AL | GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels | 2026.07 | arXiv | [Project](https://www.synapse.org/Synapse:syn75210889/wiki/) | [Paper](https://arxiv.org/abs/2607.22135) |
 ---
 
 ## **Related Surveys**
