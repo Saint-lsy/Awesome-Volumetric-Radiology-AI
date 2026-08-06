@@ -11,7 +11,7 @@
    1.3.3 [Native 3D-Volume](#native-3d-volume)
 2. [Agentic Systems](#agentic-systems)
 3. [Datasets & Benchmarks](#datasets--benchmarks)
-4. [Related Surveys](#related-surveys)
+<!-- 4. [Related Surveys](#related-surveys) -->
 
 ---
 ## Foundation Models
