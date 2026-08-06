@@ -175,7 +175,7 @@
 | MedM-VL | MedM-VL: What Makes a Good Medical LVLM? | International Workshop on Agentic AI for Medicine 2025 | 2025.09 | [Paper](https://arxiv.org/pdf/2504.04323?) | [Project](https://huggingface.co/OctoMed/OctoMed-7B) |
 | CTInstruct | CTInstruct: Towards Unified 3D CT Understanding via Instruction Tuning | AAAI 26 | 2026.01 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37517) | [Project](https://github.com/ljy19970415/CTInstruct) |
 |  | A data-efficient 3D medical vision-language model using only a 2D encoder | Scientific report | 2026.02 | [Paper](https://www.nature.com/articles/s41598-026-39526-z) | - |
-| MedPruner | MedPruner: Training-Free Hierarchical Token Pruning for Efficient 3D Medical Image Understanding in Vision-Language Models | arXiv | 2026.03 | [Paper](https://arxiv.org/abs/2603.11625) | - |
+| MedPruner | MedPruner: Training-Free Hierarchical Token Pruning for Efficient 3D Medical Image Understanding in Vision-Language Models | MICCAI2026 | 2026.03 | [Paper](https://arxiv.org/abs/2603.11625) | - |
 | Photon | Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models | ICLR 26 | 2026.03 | [Paper](https://arxiv.org/pdf/2603.25155) | [Project](https://github.com/alibaba-damo-academy/Photon) |
 | OmniCT | OmniCT: Towards a Unified Slice-Volume LVLM for Comprehensive CT Analysis | ICLR 26 | 2026.03 | [Paper](https://arxiv.org/pdf/2602.16110) | [Project](https://github.com/ZJU4HealthCare/OmniCT) |
 | MedGemma1.5 | MedGemma 1.5 Technical Report | arXiv | 2026.04 | [Paper](https://arxiv.org/abs/2604.05081) | [Project](https://huggingface.co/google/medgemma-1.5-4b-it) |
@@ -186,6 +186,8 @@
 | RadSight | RadSight: Towards Perceptually Reliable Multimodal Radiology Image Understanding | arXiv | 2026.07 | [Paper](https://arxiv.org/pdf/2607.22293) | [Project](https://github.com/alibaba-damo-academy/damo-RadSight/) |
 | ClinFusion | ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding | arXiv | 2026.07 | [Paper](https://arxiv.org/pdf/2607.24743) | [Project](https://github.com/alibaba-damo-academy/ClinFusion) |
 | Hounsfield | Towards Enhancing 3D Spatial Reasoning in Medical Multimodal Large Language Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.13860) | [Project](https://github.com/2020420145009/hounsfield) |
+| MedARC | MedARC: Training-Free Adaptive Redundancy Compression of Visual Tokens for 3D Medical Vision-Language Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.26554) | - |
+| ORCA | ORCA: ORgan-Centroid Aggregation for Training-Free 3D CT Visual Token Compression | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2608.00345) | [Project](https://github.com/renjie-liang/ORCA-3DCT) |
 ---
 
 #### **Native 3D-Volume**
@@ -228,13 +230,9 @@
 | MRI2Rep | MRI2Rep: Autoregressive Structured Report Generation for 3D Liver MRI | arXiv | 2026.06 | [Paper](https://arxiv.org/abs/2606.25279) | - |
 | NeuroVFM | Health system learning enables generalist neuroimaging models | Nature Medicine | 2026.07 | [Paper](https://www.nature.com/articles/s41591-026-04497-1) | [Project](https://github.com/MLNeurosurg/neurovfm) |
 | PIPA | PIPA: Prior-Driven Prompting with Diagnosis-Oriented Retrieval-Augmentation for 3D Radiology Report Generation | IEEE TMI | 2026.07 | [Paper](https://doi.org/10.1109/TMI.2026.3710717) | [Project](https://github.com/CUHK-AIM-Group/PIPA) |
-| PD-CTAgent | Policy-Driven CT-Agent: Modeling Phase-Aware Diagnostic Control for Clinically Consistent CT Reasoning | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.10748) | - |
 | MonteRET | MonteRET: AI Agent Enhancing Multimodal LLMs with Multi-granularity Knowledge Retrieval for Chest CT Report Generation | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14264) | - |
 | Multi-LLM MRI | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14581) | - |
-| MedARC | MedARC: Training-Free Adaptive Redundancy Compression of Visual Tokens for 3D Medical Vision-Language Models | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.26554) | - |
-| ORCA | ORCA: ORgan-Centroid Aggregation for Training-Free 3D CT Visual Token Compression | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2608.00345) | [Project](https://github.com/renjie-liang/ORCA-3DCT) |
 ---
-
 ## **Agentic Systems**
 
 | Method | Title | Venue | Date | Paper | Project |
@@ -490,8 +488,8 @@
 | GLI-AL | GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels | 2026.07 | arXiv | [Paper](https://arxiv.org/abs/2607.22135) | [Project](https://www.synapse.org/Synapse:syn75210889/wiki/) |
 ---
 
-## **Related Surveys**
+<!-- ## **Related Surveys**
 | Title | Venue | Date | Paper Link | Project Page |
 | :--- | :--- | :--- | :--- | :--- |
 | **Large-Scale Foundation Models for Radiological Image Analysis: Clinical Applications, Technical Challenges, and Future Directions** | J Imaging Inform Med | 2026 | [Paper](https://pubmed.ncbi.nlm.nih.gov/41530420/) | Not Available |
-| **Multi-modal large language models in radiology: principles, applications, and potential** | Abdom Radiol | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/39621074/) | Not Available |
+| **Multi-modal large language models in radiology: principles, applications, and potential** | Abdom Radiol | 2025 | [Paper](https://pubmed.ncbi.nlm.nih.gov/39621074/) | Not Available | -->
