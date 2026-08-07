@@ -1,4 +1,4 @@
-# Awesome-3D-Radiology-Analysis-FM
+# Awesome-Volumetric-Radiology-Analysis
 
 ## Contents
 
