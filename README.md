@@ -1,4 +1,4 @@
-# Awesome-Volumetric-Radiology-Analysis
+# Awesome-Volumetric-Radiology-AI
 
 ## Contents
 
