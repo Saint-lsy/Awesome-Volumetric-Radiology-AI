@@ -1,5 +1,10 @@
 # Awesome-Volumetric-Radiology-AI
 
+<p align="center">
+  <img src="figures/fig01_model_agent_coevolution.png" alt="Timeline showing the co-development of volumetric radiology foundation models and agentic systems" width="100%">
+</p>
+<p align="center"><em>Co-development of volumetric radiology foundation models and agentic systems.</em></p>
+
 ## Contents
 
 1. [Foundation Models](#foundation-models)  
@@ -15,6 +20,11 @@
 
 ---
 ## Foundation Models
+
+<p align="center">
+  <img src="figures/fig05_foundation_model_landscape.png" alt="Three-stage landscape of volumetric radiology foundation models" width="100%">
+</p>
+<p align="center"><em>Foundation-model landscape: volumetric self-supervised pre-training, vision-language alignment, and MLLM-based interpretation.</em></p>
 
 ### **Self-Supervised Pre-training**
 | Method | Title | Venue | Date | Paper | Project |
@@ -234,6 +244,11 @@
 | Multi-LLM MRI | Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology | arXiv | 2026.07 | [Paper](https://arxiv.org/abs/2607.14581) | - |
 ---
 ## **Agentic Systems**
+
+<p align="center">
+  <img src="figures/fig06_agentic_workflow_modules.jpg" alt="Core modules of an agentic workflow for 3D radiology analysis" width="100%">
+</p>
+<p align="center"><em>Core modules of agentic 3D radiology workflows: reasoning and planning, tool-augmented perception, memory and context, and workflow collaboration.</em></p>
 
 | Method | Title | Venue | Date | Paper | Project |
 | --- | --- | --- | --- | --- | --- |
